@@ -1,0 +1,65 @@
+<!-- REVIEWS -->
+<section class="py-24 ~px-4/8 bg-white dark:bg-stone-900">
+    <div class="container m-auto flex max-xl:flex-col gap-16">
+        <!-- TEXT + CTA -->
+        <div class="xl:shrink-0 flex flex-col items-start gap-8">
+            <!-- HEADING + TEXT -->
+            <div class="flex flex-col gap-4">
+                <!-- TOPPER + HEADING -->
+                <div class="flex flex-col items-start gap-2">
+                    <span class="topper">{{ reviews.topper }}</span>
+                    <h2 class="max-w-xs ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ reviews.heading | safe }}</h2>
+                </div>
+
+                <p class="max-w-sm ~text-sm/base text-stone-800 dark:text-stone-200">{{ reviews.text }}</p>
+            </div>
+
+            <!-- CTA -->
+            <a href="{{ reviews.ctaUrl }}" class="btn">{{ reviews.cta }}</a>
+        </div>
+
+        <!-- REVIEWS -->
+        <ul class="grid grid-cols-1 xl:grid-cols-3 ~gap-4/6">
+            {% for item in reviews.items %}
+                <li class="flex flex-col items-center gap-12 py-12 px-8 bg-background rounded-3xl">
+                    <!-- PHOTO -->
+                    <div class="relative">
+                        <img
+                            class="object-cover rounded-full"
+                            src="{{ item.imageUrl }}"
+                            alt="{{ item.imageAlt }}"
+                            width="96"
+                            height="96"
+                            loading="lazy"
+                            decoding="async"
+                            aria-hidden="true"
+                            draggable="false">
+
+                        <!-- QUOTE ICON -->
+                        <img
+                            class="absolute bottom-0 left-1/2 translate-y-1/2 -translate-x-1/2"
+                            src="/assets/svgs/reviews/quote.svg"
+                            alt="Ikona uvozovek"
+                            width="48"
+                            height="48"
+                            loading="lazy"
+                            decoding="async"
+                            aria-hidden="true"
+                            draggable="false">
+                    </div>
+
+                    <!-- TEXT + NAME -->
+                    <div class="flex flex-col items-center gap-8">
+                        <p class="text-center ~text-sm/base text-stone-200">{{ item.text }}</p>
+
+                        <!-- NAME + NOTE -->
+                        <div class="flex flex-col gap-0.5">
+                            <span class="text-center ~text-base/lg text-white font-medium">{{ item.name }}</span>
+                            <span class="text-center text-sm text-stone-200 font-light">{{ item.note }}</span>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
