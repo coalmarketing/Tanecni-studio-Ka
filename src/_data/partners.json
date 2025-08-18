@@ -3,6 +3,7 @@
         {
             "url": "https://coalios.cz/",
             "imageUrl": "/assets/images/partners/coalios.svg",
+            "darkImageUrl": "/assets/images/partners/coalios_dark.svg",
             "imageAlt": "Logo coalios s.r.o."
         },
         {
@@ -13,16 +14,19 @@
         {
             "url": "https://www.letohrad.eu/",
             "imageUrl": "/assets/images/partners/mesto-letohrad.png",
+            "darkImageUrl": "/assets/images/partners/mesto-letohrad_dark.png",
             "imageAlt": "Logo Město Letohrad"
         },
         {
             "url": "https://www.testa.cz/",
             "imageUrl": "/assets/images/partners/testa.png",
+            "darkImageUrl": "/assets/images/partners/testa_dark.png",
             "imageAlt": "Logo Testa"
         },
         {
             "url": "https://coalsoft.cz/",
             "imageUrl": "/assets/images/partners/coalsoft.svg",
+            "darkImageUrl": "/assets/images/partners/coalsoft_dark.svg",
             "imageAlt": "Logo coalsoft s.r.o."
         }
     ]

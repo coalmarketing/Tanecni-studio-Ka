@@ -5,7 +5,7 @@
             <li class="flex-1">
                 <a href="{{ item.url }}" target="_blank" class="group">
                     <img
-                        class="w-full h-auto transition-[filter] duration-300 grayscale group-hover:grayscale-0"
+                        class="w-full h-auto transition-[filter] duration-300 grayscale group-hover:grayscale-0 {%- if item.darkImageUrl %} dark:hidden {%- endif %}"
                         src="{{ item.imageUrl }}"
                         alt="{{ item.imageAlt }}"
                         width="205"
@@ -14,6 +14,19 @@
                         decoding="async"
                         aria-hidden="true"
                         draggable="false">
+
+                    {% if item.darkImageUrl %}
+                        <img
+                            class="hidden dark:block w-full h-auto transition-[filter] duration-300 grayscale group-hover:grayscale-0"
+                            src="{{ item.darkImageUrl }}"
+                            alt="{{ item.imageAlt }}"
+                            width="205"
+                            height="42"
+                            loading="lazy"
+                            decoding="async"
+                            aria-hidden="true"
+                            draggable="false">
+                    {% endif %}
                 </a>
             </li>
         {% endfor %}
