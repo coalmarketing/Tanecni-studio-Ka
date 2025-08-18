@@ -129,48 +129,6 @@ about:
   imageAlt: Instruktoři tanečního studia Ká
 
 
-team:
-  topper: Náš tým
-  heading: Naši zkušení lektoři a lektorky
-
-  items:
-    - imageUrl: /assets/images/our-team/katerina_motyckova.jpg
-      imageAlt: Instruktorka Kateřina Motyčková
-
-      name: Kateřina Motyčková
-
-      courses:
-        - title: společenské tance
-        - title: sólo latin dance
-        - title: orientální tanec
-
-    - imageUrl: /assets/images/our-team/tomas_motycka.jpg
-      imageAlt: Instruktor Tomáš Motyčka
-
-      name: Tomáš Motyčka
-
-      courses:
-        - title: společenské tance
-
-    - imageUrl: /assets/images/our-team/simona_senkyrova.jpg
-      imageAlt: Instruktorka Simona Šenkýřová
-
-      name: Simona Šenkýřová
-
-      courses:
-        - title: sólo latin dance
-
-    - imageUrl: /assets/images/our-team/miroslava_moravcova.jpg
-      imageAlt: Instruktorka Miroslava Moravcová
-
-      name: Miroslava Moravcová
-
-      courses:
-        - title: pole dance
-        - title: sólo latin dance
-        - title: orientální tanec
-
-
 gallery:
   topper: Fotogalerie
   heading: Fotogalerie z našich tanečních kurzů
@@ -186,39 +144,6 @@ blog:
 
   cta: Zobrazit vše
   ctaUrl: /blog
-
-
-locations:
-  topper: Adresa
-  heading: Kde probíhají naše&nbsp;taneční kurzy
-  text: Naše kurzy probíhají na různých místech podle typu výuky. Základní a pokračovací lekce probíhají ve větších sálech, zatímco ostatní taneční kurzy pořádáme v našem tanečním studiu.
-
-  items:
-    - url: https://maps.app.goo.gl/FkL96JNxCNrQQCS3A
-    
-      title: Kurzy tanečního studia
-      text: ZŠ Komenského 269, 561 51 Letohrad
-
-      iframeUrl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.67061523145!2d16.492194577029405!3d50.03626757151599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dfae0c4c9b9f7%3A0x8130490e21549a9f!2sKomensk%C3%A9ho%20269%2C%20561%2051%20Letohrad!5e0!3m2!1scs!2scz!4v1754937995375!5m2!1scs!2scz
-
-    - url: https://maps.app.goo.gl/SN5dzNwEPY1LjixQ7
-    
-      title: Kurzy párových tanců
-      text: Dům kultury, Družstevní 597, 561 51 Letohrad
-
-      iframeUrl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.833978493565!2d16.507147477029292!3d50.0332066715156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dfafc78a18d07%3A0xe7ad014b80785077!2sD%C5%AFm%20kultury!5e0!3m2!1scs!2scz!4v1754938113920!5m2!1scs!2scz
-
-    - url: https://maps.app.goo.gl/FC1quq7cW1qcyDQg9
-    
-      title: Kurzy párových tanců
-      text: Orlovna č.p. 181, 561 51 Letohrad - Orlice
-
-      iframeUrl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.0600387926945!2d16.523208784241383!3d50.027224224278726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dfa573580714d%3A0xbb52a1d09d6e8116!2sOrlice%2C%20561%2051%20Letohrad!5e0!3m2!1scs!2scz!4v1754938277936!5m2!1scs!2scz
-
-  itemCta: Zobrazit na mapě
-
-  cta: Rezervace
-  ctaUrl: https://google.com
 
 
 reviews:
@@ -244,7 +169,7 @@ reviews:
       imageUrl: /assets/images/reviews/review-2.jpg
       imageAlt: Fotka recenzenta - Jakub P.
 
-    - text: Taneční mi daly víc, než jsem čekala. Nejen základy tance, ale i přátelství a skvělé zážitky. Děkuji za atmosféru, na věnečku tekly slzy dojetí.
+    - text: Taneční mi daly víc, než jsem čekala. Nejen základy tance, ale i přátelství a skvělé zážitky. Děkuji za atmosféru, na věnečku tekly slzy dojetí.
       name: Daniela P.
       note: absolventka tanečních kurzů
 

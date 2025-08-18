@@ -1,13 +1,13 @@
 ---
-layout: "pages/about.njk"
+layout: "pages/blog.njk"
 
-title: 'O nás'
+title: 'Blog'
 description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
-permalink: 'o-nas/'
+permalink: 'blog/'
 
 eleventyNavigation:
-  key: O nás
-  order: 200
+  key: Blog
+  order: 400
 
 
 landing:
@@ -15,5 +15,5 @@ landing:
     - title: Domů
       url: /
 
-    - title: O nás
+    - title: Blog
 ---

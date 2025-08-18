@@ -1,0 +1,43 @@
+<!-- LOCATIONS -->
+<section class="py-24 ~px-4/8 bg-stone-100 dark:bg-stone-950">
+    <div class="container m-auto flex flex-col gap-12">
+        <!-- HEADING + TEXT -->
+        <div class="flex flex-col items-center gap-4">
+            <!-- TOPPER + HEADING -->
+            <div class="flex flex-col items-center gap-2">
+                <span class="topper">{{ locations.topper }}</span>
+                <h2 class="~max-w-xs/md text-center ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ locations.heading | safe }}</h2>
+            </div>
+
+            <p class="max-w-lg text-center ~text-sm/base text-stone-800 dark:text-stone-200">{{ locations.text }}</p>
+        </div>
+
+        <ul class="grid grid-cols-1 xl:grid-cols-3 gap-y-8 ~gap-x-4/6">
+            {% for item in locations.items %}
+                <li class="flex flex-col items-center">
+                    <!-- MAP IFRAME -->
+                    <iframe class="h-[24rem] w-full rounded-3xl" src="{{ item.iframeUrl }}" width="496" height="384" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <!-- TEXT CARD -->
+                    <div class="flex flex-col items-center gap-8 w-[calc(100%-1rem)] sm:w-full max-w-[24rem] max-sm:px-4 p-6 -mt-8 bg-background rounded-3xl">
+                        <!-- TITLE + TEXT -->
+                        <div class="flex flex-col items-center gap-3">
+                            <span class="text-center ~text-xl/2xl text-white font-semibold">{{ item.title }}</span>
+                            <span class="text-center ~text-sm/base text-stone-200">{{ item.text }}</span>
+                        </div>
+
+                        <!-- CTA -->
+                        <a href="{{ item.url }}" target="_blank" class="group relative flex flex-col gap-1.5 text-primary font-semibold leading transition-colors duration-300 hover:text-accent-primary">
+                            <span>{{ locations.itemCta }}</span>
+
+                            <!-- BOTTOM LINE -->
+                            <div class="h-0.5 bg-primary transition-transform duration-300 origin-center group-hover:scale-x-0"></div>
+                        </a>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <a href="{{ locations.ctaUrl }}" target="_blank" class="btn self-center">{{ locations.cta }}</a>
+    </div>
+</section>

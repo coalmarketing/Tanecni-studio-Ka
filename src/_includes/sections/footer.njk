@@ -1,3 +1,123 @@
-<footer class="py-24 ~px-4/8">
-    <div class="container m-auto"></div>
+<footer class="py-24 ~px-4/8 bg-background">
+    <div class="container m-auto flex flex-col ~gap-16/32">
+        <!-- CTA -->
+        <div class="flex max-lg:flex-col lg:justify-between items-start lg:items-end gap-8">
+            <!-- TOPPER + HEADING -->
+            <div class="flex flex-col items-start gap-4">
+                <span class="topper">Rezervujte si svůj termín</span>
+                <h2 class="~text-4xl/6xl text-white font-bold !leading-[1.1]">
+                    Vyberte si svůj kurz a&nbsp;udělejte<br class="max-sm:hidden"> první krok na&nbsp;taneční parket!
+                </h2>
+            </div>
+
+            <!-- CTA BUTTON -->
+            <a href="https://www.google.com/" target="_blank" class="btn btn-xl">
+              Rezervace
+            </a>
+        </div>
+
+        <!-- CONTACT INFO + LOGO -->
+        <div class="flex max-lg:flex-col justify-between lg:items-end gap-16">
+            <!-- CONTACT INFO -->
+            <ul class="grid grid-cols-1 sm:grid-cols-2 ~gap-y-8/16 ~gap-x-16/32">
+                <!-- EMAIL -->
+                <li class="flex flex-col items-start gap-1">
+                    <span class="~text-lg/xl text-stone-300 font-medium">Email</span>
+                    <a
+                        href="mailto:{{ client.email }}"
+                        class="relative ~text-xl/2xl text-white font-medium
+                        before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-full before:bg-white
+                        before:transition-transform before:duration-300 before:scale-x-0 before:origin-left hover:before:scale-x-100">
+                        {{ client.email }}
+                    </a>
+                </li>
+
+                <!-- PHONE -->
+                <li class="flex flex-col items-start gap-1">
+                    <span class="~text-lg/xl text-stone-300 font-medium">Telefon</span>
+                    <a
+                        href="tel:{{ client.phoneForTel }}"
+                        class="relative ~text-xl/2xl text-white font-medium
+                        before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-full before:bg-white
+                        before:transition-transform before:duration-300 before:scale-x-0 before:origin-left hover:before:scale-x-100">
+                        {{ client.phoneFormatted }}
+                    </a>
+                </li>
+
+                <!-- BANK ACCOUNT -->
+                <li class="flex flex-col items-start gap-1">
+                    <span class="~text-lg/xl text-stone-300 font-medium">Bankovní spojení</span>
+                    <span class="relative ~text-xl/2xl text-white font-medium">
+                        2801094173/2010
+                    </span>
+                </li>
+
+                <!-- SOCIALS -->
+                <li class="flex flex-col items-start gap-2.5">
+                    <span class="~text-lg/xl text-stone-300 font-medium">Sociální sítě</span>
+
+                    <div class="flex gap-4">
+                        <!-- FACEBOOK -->
+                        <a href="{{ client.socials.facebook }}" target="_blank">
+                            <img
+                                src="/assets/svgs/socials/facebook.svg"
+                                alt="Ikona Facebook"
+                                width="24"
+                                height="24"
+                                loading="lazy"
+                                decoding="async"
+                                aria-hidden="true"
+                                draggable="false">
+                        </a>
+
+                        <!-- INSTAGRAM -->
+                        <a href="{{ client.socials.instagram }}" target="_blank">
+                            <img
+                                src="/assets/svgs/socials/instagram.svg"
+                                alt="Ikona Instagram"
+                                width="24"
+                                height="24"
+                                loading="lazy"
+                                decoding="async"
+                                aria-hidden="true"
+                                draggable="false">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- LOGO + COPYRIGHT -->
+            <div class="flex flex-col gap-8">
+                <!-- LOGO + MOTTO -->
+                <div class="flex flex-col gap-4">
+                    <img
+                        src="/assets/svgs/TS_Ka-logo-white.svg"
+                        alt="Bílé logo Taneční studio Ká"
+                        width="244"
+                        height="96"
+                        loading="lazy"
+                        decoding="async"
+                        aria-hidden="true"
+                        draggable="false">
+
+                    <p class="text-xl text-white font-medium">Tanec srdcem, růst s vášní!</p>
+                </div>
+
+                <!-- MISC LINKS -->
+                <div class="flex items-center gap-4">
+                    <a href="/provozni-rad" class="text-sm text-stone-300 hover:underline hover:text-white">Provozní řád</a>
+
+                    <!-- SEPARATOR -->
+                    <div class="h-[1.125rem] w-0.5 bg-stone-300"></div>
+
+                    <a href="/podminky-ucasti" class="text-sm text-stone-300 hover:underline hover:text-white">Podmínky účasti</a>
+                </div>
+
+                <!-- COPYRIGHT -->
+                <span class="text-xs text-stone-300">
+                    © Copyright 2025 - <a href="https://coalmarketing.cz/" target="_blank" class="underline hover:text-white">coalmarketing.cz</a>
+                </span>
+            </div>
+        </div>
+    </div>
 </footer>

@@ -1,13 +1,14 @@
 ---
-layout: "pages/about.njk"
+layout: "pages/courses/orientalni-tance.njk"
 
-title: 'O nás'
+title: 'Orientální tance'
 description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
-permalink: 'o-nas/'
+permalink: 'tanecni-kurzy/orientalni-tance/'
 
 eleventyNavigation:
-  key: O nás
-  order: 200
+  key: Orientální tance
+  parent: Taneční kurzy
+  order: 300
 
 
 landing:
@@ -15,5 +16,5 @@ landing:
     - title: Domů
       url: /
 
-    - title: O nás
+    - title: Orientální tance
 ---

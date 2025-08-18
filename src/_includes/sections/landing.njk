@@ -1,20 +1,54 @@
 <!-- LANDING -->
-<section class="relative ~px-4/8 pt-60 pb-16 bg-gray-900 dark:bg-gray-950 z-10">
+<section class="relative ~px-4/8 pt-60 pb-16 bg-background z-10">
   <div class="container m-auto flex flex-col items-start gap-6">
-    <div class="flex flex-col gap-1">
-      <span class="relative text-primary font-medium
-      before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[calc(100%+0.25rem)] lg:before:right-[calc(100%+1rem)] before:h-px before:w-[10vw] before:bg-primary">BV Speed</span>
-      <h1 class="text-white text-4xl font-semibold leading-none">
-        {{ title }}
-      </h1>
-    </div>
-    <div class="flex items-center gap-4 *:font-work-sans *:text-sm">
-      <a class="text-gray-300 hover:text-white" href="/">Domů</a>
-      <span class="text-gray-300">/</span>
-      <a class="text-white" href="#">{{ title }}</a>
-    </div>
+    <!-- HEADING -->
+    <span class="text-white text-4xl font-bold leading-none">
+      {{ title }}
+    </span>
+
+    <!-- BREADCRUMBS -->
+    <ul class="flex flex-wrap justify-center items-center ~gap-2/4">
+      {% for item in landing.breadcrumbs %}
+        {% if item.url %}
+          <li>
+            <a href="{{ item.url }}" class="text-stone-200 hover:text-white">{{ item.title }}</a>
+          </li>
+
+          {# Show the chevron icon if this is not the last item #}
+          {% if loop.index != landing.breadcrumbs.length %}
+            <li class="text-stone-200">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.9,8.8L6.5,5.3l0.8-0.8l4.2,4.2L7.3,13l-0.8-0.8L9.9,8.8z"/>
+              </svg>
+            </li>
+          {% endif %}
+
+        {% else %}
+          {# Show the chevron icon if this is not the last item #}
+          {% if loop.index != landing.breadcrumbs.length %}
+            <li class="text-stone-200">{{ item.title }}</li>
+
+            <li class="text-stone-200">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.9,8.8L6.5,5.3l0.8-0.8l4.2,4.2L7.3,13l-0.8-0.8L9.9,8.8z"/>
+              </svg>
+            </li>
+          {% else %}
+            <li class="text-white line-clamp-1">{{ item.title }}</li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
 
   <!-- BACKGROUND -->
-  <img class="absolute top-0 left-0 h-full w-full object-cover opacity-20 -z-10" src="/assets/svgs/landing/landing_background.svg" alt="Pozadí sekce CTA" decoding="async" loading="lazy" width="1920" height="24" draggable="false"/>
+  <img
+    class="absolute top-0 right-0 h-full w-auto object-cover opacity-50 -z-10"
+    src="/assets/svgs/landing/TS-Ká_landing.svg"
+    alt="Pozadí úvodní sekce"
+    decoding="async"
+    loading="lazy"
+    width="436"
+    height="436"
+    draggable="false"/>
 </section>

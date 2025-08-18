@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "url": "https://coalios.cz/",
+            "imageUrl": "/assets/images/partners/coalios.svg",
+            "imageAlt": "Logo coalios s.r.o."
+        },
+        {
+            "url": "https://maps.app.goo.gl/j7sQ8E4rZKTr98tE6",
+            "imageUrl": "/assets/images/partners/havlicek-kovovyroba.png",
+            "imageAlt": "Logo Havlíček kovovýroba"
+        },
+        {
+            "url": "https://www.letohrad.eu/",
+            "imageUrl": "/assets/images/partners/mesto-letohrad.png",
+            "imageAlt": "Logo Město Letohrad"
+        },
+        {
+            "url": "https://www.testa.cz/",
+            "imageUrl": "/assets/images/partners/testa.png",
+            "imageAlt": "Logo Testa"
+        },
+        {
+            "url": "https://coalsoft.cz/",
+            "imageUrl": "/assets/images/partners/coalsoft.svg",
+            "imageAlt": "Logo coalsoft s.r.o."
+        }
+    ]
+}

@@ -1,13 +1,14 @@
 ---
-layout: "pages/about.njk"
+layout: "pages/courses/spolecensky-tanec-pokracovaci.njk"
 
-title: 'O nás'
+title: 'Společenský kurz - pokračovací kurz'
 description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
-permalink: 'o-nas/'
+permalink: 'tanecni-kurzy/spolecensky-tanec-pokracovaci/'
 
 eleventyNavigation:
-  key: O nás
-  order: 200
+  key: Pokračovací kurz
+  parent: Společenský tanec
+  order: 100
 
 
 landing:
@@ -15,5 +16,7 @@ landing:
     - title: Domů
       url: /
 
-    - title: O nás
+    - title: Společenský tanec
+
+    - title: Pokračovací kurz
 ---

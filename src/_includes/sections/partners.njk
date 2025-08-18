@@ -1,4 +1,21 @@
 <!-- PARTNERS -->
-<section class="py-24 ~px-4/8">
-    <div class="container m-auto flex justify-between"></div>
+<section class="~py-16/24 ~px-4/8 bg-stone-100 dark:bg-stone-950">
+    <ul class="container m-auto flex justify-between items-center ~gap-8/32">
+        {% for item in partners.items %}
+            <li class="flex-1">
+                <a href="{{ item.url }}" target="_blank" class="group">
+                    <img
+                        class="w-full h-auto transition-[filter] duration-300 grayscale group-hover:grayscale-0"
+                        src="{{ item.imageUrl }}"
+                        alt="{{ item.imageAlt }}"
+                        width="205"
+                        height="42"
+                        loading="lazy"
+                        decoding="async"
+                        aria-hidden="true"
+                        draggable="false">
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 </section>

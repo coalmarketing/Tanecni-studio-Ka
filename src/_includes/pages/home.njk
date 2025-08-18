@@ -13,7 +13,7 @@
 
 {% block body %}
     <!-- HERO -->
-    <section class="py-24 ~px-4/8 relative flex items-end min-h-screen z-10
+    <section class="~py-12/24 ~px-4/8 relative flex items-end min-h-screen z-10
         before:absolute before:bottom-0 before:left-0 before:h-3/4 xl:before:h-1/2 before:w-full before:bg-gradient-to-t before:from-black before:to-black/0 before:-z-10">
         <div class="container mx-auto flex max-xl:flex-col justify-between xl:items-end gap-8 xl:gap-16">
             <!-- TOPPER + HEADING -->
@@ -45,7 +45,7 @@
                 </div>
 
                 <!-- CTA BUTTONS -->
-                <div class="flex gap-4">
+                <div class="flex flex-wrap ~gap-2/4">
                     {% for item in hero.cta %}
                         <a href="{{ item.url }}" target="{{ item.target }}" class="btn btn-lg even:btn-secondary">
                             {{ item.text }}
@@ -216,50 +216,7 @@
             </div>
         </section>
 
-        <!-- OUR TEAM -->
-        <section class="py-24 ~px-4/8">
-            <div class="container m-auto flex flex-col gap-12">
-                <!-- TOPPER + HEADING -->
-                <div class="flex flex-col items-center gap-2">
-                    <span class="topper">{{ team.topper }}</span>
-                    <h2 class="text-center ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ team.heading | safe }}</h2>
-                </div>
-
-                <ul class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-y-8 ~gap-x-4/6">
-                    {% for item in team.items %}
-                        <li class="flex flex-col items-center gap-4">
-                            <picture class="w-full">
-                                <source srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | avif %}" type="image/avif">
-                                <source srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | webp %}" type="image/webp">
-                                <source srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | jpeg %}" type="image/jpeg">
-                                <img
-                                    class="object-cover h-[20rem] max-xl:w-full rounded-3xl"
-                                    src="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | jpeg %}"
-                                    alt="item.imageAlt"
-                                    width="366"
-                                    height="320"
-                                    loading="lazy"
-                                    decoding="async"
-                                    aria-hidden="true"
-                                    draggable="false">
-                            </picture>
-
-                            <!-- INSTRUCTOR NAME -->
-                            <span class="text-center ~text-xl/2xl text-black dark:text-white font-semibold">{{ item.name }}</span>
-
-                            <!-- COURSES -->
-                            <ul class="flex flex-wrap justify-center gap-2 max-w-64">
-                                {% for course in item.courses %}
-                                    <li class="py-1 px-2 bg-stone-200 dark:bg-stone-800 text-stone-800 dark:text-stone-200 text-sm rounded-lg">
-                                        {{ course.title }}
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </section>
+        {% include "sections/our-team.njk" %}
 
         <!-- BACKGROUND DECORATION -->
         <img
@@ -295,26 +252,22 @@
             </div>
 
             <!-- GALLERY PHOTOS -->
-            <ul class="grid grid-cols-4 grid-rows-4 ~gap-4/6 xl:h-[80rem]">
+            <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-rows-4 ~gap-2/6 xl:h-[80rem]">
                 {% for i in range(8) %}
                     {% set imageUrl = '/assets/images/gallery/tanecni-studio-ka_gallery-' + loop.index + '.jpg' %}
 
                     <li class="xl:first:col-span-2 xl:first:row-span-2 xl:[&:nth-child(2)]:row-span-2 xl:[&:nth-child(6)]:row-span-2 xl:[&:nth-child(7)]:col-span-2 xl:[&:nth-child(7)]:row-span-2">
                         <picture>
-                            <!-- MOBILE IMAGE -->
-                            <source media="(max-width: 600px)" srcset="{% getUrl imageUrl | avif %}" type="image/avif">
-                            <source media="(max-width: 600px)" srcset="{% getUrl imageUrl | webp %}" type="image/webp">
-                            <source media="(max-width: 600px)" srcset="{% getUrl imageUrl | jpeg %}" type="image/jpeg">
                             <!-- TABLET IMAGE -->
-                            <source media="(max-width: 1024px)" srcset="{% getUrl imageUrl | avif %}" type="image/avif">
-                            <source media="(max-width: 1024px)" srcset="{% getUrl imageUrl | webp %}" type="image/webp">
-                            <source media="(max-width: 1024px)" srcset="{% getUrl imageUrl | jpeg %}" type="image/jpeg">
+                            <source media="(max-width: 1280px)" srcset="{% getUrl imageUrl | resize({ width: 752, height: 752 }) | avif %}" type="image/avif">
+                            <source media="(max-width: 1280px)" srcset="{% getUrl imageUrl | resize({ width: 752, height: 752 }) | webp %}" type="image/webp">
+                            <source media="(max-width: 1280px)" srcset="{% getUrl imageUrl | resize({ width: 752, height: 752 }) | jpeg %}" type="image/jpeg">
                             <!-- DESKTOP IMAGE -->
-                            <source media="(min-width: 1024px)" srcset="{% getUrl imageUrl | resize({ height: 1258 }) | avif %}" type="image/avif">
-                            <source media="(min-width: 1024px)" srcset="{% getUrl imageUrl | resize({ height: 1258 }) | webp %}" type="image/webp">
-                            <source media="(min-width: 1024px)" srcset="{% getUrl imageUrl | resize({ height: 1258 }) | jpeg %}" type="image/jpeg">
+                            <source media="(min-width: 1280px)" srcset="{% getUrl imageUrl | resize({ height: 1258 }) | avif %}" type="image/avif">
+                            <source media="(min-width: 1280px)" srcset="{% getUrl imageUrl | resize({ height: 1258 }) | webp %}" type="image/webp">
+                            <source media="(min-width: 1280px)" srcset="{% getUrl imageUrl | resize({ height: 1258 }) | jpeg %}" type="image/jpeg">
                             <img
-                                class="object-cover h-full w-full rounded-3xl"
+                                class="object-cover h-full w-full max-xl:aspect-square rounded-3xl"
                                 src="{% getUrl imageUrl | resize({ height: 1258 }) | jpeg %}"
                                 alt="Galerie tanečního studio Ká {{ loop.index }}"
                                 width="756"
@@ -383,48 +336,7 @@
         </div>
     </section>
 
-    <!-- LOCATIONS -->
-    <section class="py-24 ~px-4/8 bg-stone-100 dark:bg-stone-950">
-        <div class="container m-auto flex flex-col gap-12">
-            <!-- HEADING + TEXT -->
-            <div class="flex flex-col items-center gap-4">
-                <!-- TOPPER + HEADING -->
-                <div class="flex flex-col items-center gap-2">
-                    <span class="topper">{{ locations.topper }}</span>
-                    <h2 class="~max-w-xs/md text-center ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ locations.heading | safe }}</h2>
-                </div>
-
-                <p class="max-w-lg text-center ~text-sm/base text-stone-800 dark:text-stone-200">{{ locations.text }}</p>
-            </div>
-
-            <ul class="grid grid-cols-1 xl:grid-cols-3 gap-y-8 ~gap-x-4/6">
-                {% for item in locations.items %}
-                    <li class="flex flex-col items-center">
-                        <!-- MAP IFRAME -->
-                        <iframe class="h-[24rem] w-full rounded-3xl" src="{{ item.iframeUrl }}" width="496" height="384" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                        <div class="flex flex-col items-center gap-8 w-full max-w-[24rem] p-6 -mt-8 bg-background rounded-3xl">
-                            <!-- TITLE + TEXT -->
-                            <div class="flex flex-col items-center gap-3">
-                                <span class="text-center ~text-xl/2xl text-white font-semibold">{{ item.title }}</span>
-                                <span class="text-center ~text-sm/base text-stone-200">{{ item.text }}</span>
-                            </div>
-
-                            <!-- CTA -->
-                            <a href="{{ item.url }}" target="_blank" class="group relative flex flex-col gap-1.5 text-primary font-semibold leading transition-colors duration-300 hover:text-accent-primary">
-                                <span>{{ locations.itemCta }}</span>
-
-                                <!-- BOTTOM LINE -->
-                                <div class="h-0.5 bg-primary transition-transform duration-300 origin-center group-hover:scale-x-0"></div>
-                            </a>
-                        </div>
-                    </li>
-                {% endfor %}
-            </ul>
-
-            <a href="{{ locations.ctaUrl }}" target="_blank" class="btn self-center">{{ locations.cta }}</a>
-        </div>
-    </section>
-
+    {% include "sections/locations.njk" %}
     {% include "sections/reviews.njk" %}
+    {% include "sections/partners.njk" %}
 {% endblock body %}

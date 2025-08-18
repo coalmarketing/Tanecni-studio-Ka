@@ -1,13 +1,14 @@
 ---
-layout: "pages/about.njk"
+layout: "pages/courses/spolecensky-tanec-sportovni.njk"
 
-title: 'O nás'
+title: 'Sportovní kurz pro mládež'
 description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
-permalink: 'o-nas/'
+permalink: 'tanecni-kurzy/spolecensky-tanec-sportovni/'
 
 eleventyNavigation:
-  key: O nás
-  order: 200
+  key: Sportovní kurz pro mládež
+  parent: Společenský tanec
+  order: 400
 
 
 landing:
@@ -15,5 +16,7 @@ landing:
     - title: Domů
       url: /
 
-    - title: O nás
+    - title: Společenský tanec
+
+    - title: Sportovní kurz pro mládež
 ---

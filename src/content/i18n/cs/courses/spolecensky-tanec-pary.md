@@ -1,13 +1,14 @@
 ---
-layout: "pages/about.njk"
+layout: "pages/courses/spolecensky-tanec-pary.njk"
 
-title: 'O nás'
+title: 'Individuální hodiny pro páry'
 description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
-permalink: 'o-nas/'
+permalink: 'tanecni-kurzy/spolecensky-tanec-pary/'
 
 eleventyNavigation:
-  key: O nás
-  order: 200
+  key: Individuální hodiny pro páry
+  parent: Společenský tanec
+  order: 300
 
 
 landing:
@@ -15,5 +16,7 @@ landing:
     - title: Domů
       url: /
 
-    - title: O nás
+    - title: Společenský tanec
+
+    - title: Individuální hodiny pro páry
 ---

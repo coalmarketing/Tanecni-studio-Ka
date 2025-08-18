@@ -1,0 +1,44 @@
+<!-- OUR TEAM -->
+<section class="py-24 ~px-4/8 group-[.interior]/body:bg-white group-[.interior]/body:dark:bg-stone-900">
+    <div class="container m-auto flex flex-col gap-12">
+        <!-- TOPPER + HEADING -->
+        <div class="flex flex-col items-center gap-2">
+            <span class="topper">{{ team.topper }}</span>
+            <h2 class="text-center ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ team.heading | safe }}</h2>
+        </div>
+
+        <ul class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-y-8 ~gap-x-4/6">
+            {% for item in team.items %}
+                <li class="flex flex-col items-center gap-4">
+                    <picture class="w-full">
+                        <source srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | avif %}" type="image/avif">
+                        <source srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | webp %}" type="image/webp">
+                        <source srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | jpeg %}" type="image/jpeg">
+                        <img
+                            class="object-cover h-[20rem] max-xl:w-full rounded-3xl"
+                            src="{% getUrl item.imageUrl | resize({ width: 732, height: 640, position: 'attention' }) | jpeg %}"
+                            alt="item.imageAlt"
+                            width="366"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                            aria-hidden="true"
+                            draggable="false">
+                    </picture>
+
+                    <!-- INSTRUCTOR NAME -->
+                    <span class="text-center ~text-xl/2xl text-black dark:text-white font-semibold">{{ item.name }}</span>
+
+                    <!-- COURSES -->
+                    <ul class="flex flex-wrap justify-center gap-2 max-w-64">
+                        {% for course in item.courses %}
+                            <li class="py-1 px-2 bg-stone-200 dark:bg-stone-800 text-stone-800 dark:text-stone-200 text-sm rounded-lg">
+                                {{ course.title }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

@@ -20,13 +20,15 @@
                         {% endif -%}
 
                         {%- if item.text %}
-                            <p class="~text-sm/base text-gray-800 dark:text-gray-200 mb-2">{{ item.text }}</p>
+                            {% for text in item.text %}
+                                <p class="~text-sm/base text-stone-800 dark:text-stone-200 mb-2">{{ text.paragraph | safe }}</p>
+                            {% endfor %}
                         {% endif -%}
 
                         {%- if item.subitems %}
                             <ul class="list-disc max-w-2xl space-y-1 ml-8">
                                 {% for subitem in item.subitems %}
-                                    <li class="font-work-sans text-gray-800 dark:text-gray-200">{{ subitem.text }}</li>
+                                    <li class="font-work-sans text-stone-800 dark:text-stone-200">{{ subitem.text }}</li>
                                 {% endfor %}
                             </ul>
                         {% endif %}
