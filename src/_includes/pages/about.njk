@@ -4,9 +4,72 @@
     {% include "sections/landing.njk" %}
 
     <!-- ABOUT -->
-    <section class="py-24 ~px-4/8">
-        <div class="container m-auto"></div>
+    <section class="py-24 ~px-4/8 bg-white dark:bg-stone-900">
+        <div class="container m-auto flex max-xl:flex-col xl:items-start ~gap-12/24">
+            <!-- IMAGE -->
+            <picture class="xl:sticky xl:top-32">
+                <!-- MOBILE IMAGE -->
+                <source media="(max-width: 600px)" srcset="{% getUrl about.imageUrl | resize({ width: 736, height: 490 }) | avif %}" type="image/avif">
+                <source media="(max-width: 600px)" srcset="{% getUrl about.imageUrl | resize({ width: 736, height: 490 }) | webp %}" type="image/webp">
+                <source media="(max-width: 600px)" srcset="{% getUrl about.imageUrl | resize({ width: 736, height: 490 }) | jpeg %}" type="image/jpeg">
+                <!-- DESKTOP IMAGE -->
+                <source media="(min-width: 600px)" srcset="{% getUrl about.imageUrl | resize({ width: 1724, height: 1150 }) | avif %}" type="image/avif">
+                <source media="(min-width: 600px)" srcset="{% getUrl about.imageUrl | resize({ width: 1724, height: 1150 }) | webp %}" type="image/webp">
+                <source media="(min-width: 600px)" srcset="{% getUrl about.imageUrl | resize({ width: 1724, height: 1150 }) | jpeg %}" type="image/jpeg">
+                <img
+                    class="object-cover w-full rounded-4xl"
+                    src="{% getUrl about.imageUrl | resize({ width: 1724, height: 1150 }) | jpeg %}"
+                    alt="{{ about.imageAlt }}"
+                    width="862"
+                    height="575"
+                    loading="lazy"
+                    decoding="async"
+                    aria-hidden="true"
+                    draggable="false">
+            </picture>
+
+            <!-- TEXT + CTA -->
+            <div class="xl:shrink-0 self-center flex flex-col gap-8">
+                <!-- HEADING + TEXT -->
+                <div class="flex flex-col gap-4">
+                    <!-- TOPPER + HEADING -->
+                    <div class="flex flex-col items-start gap-2">
+                        <span class="topper">{{ about.topper }}</span>
+                        <h2 class="~max-w-xs/lg ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ about.heading | safe }}</h2>
+                    </div>
+
+                    {% for text in about.text %}
+                        <p class="max-w-xl ~text-sm/base text-stone-800 dark:text-stone-200">{{ text.paragraph }}</p>
+                    {% endfor %}
+                </div>
+
+                <!-- BENEFITS -->
+                <ul class="grid grid-cols-2 sm:grid-cols-3 gap-2 max-w-xl">
+                    {% for item in about.items %}
+                        <li class="flex flex-col gap-4 p-4 bg-background rounded-2xl">
+                            <!-- ICON -->
+                            <img
+                                    src="{{ item.iconUrl }}"
+                                    alt="{{ item.iconAlt }}"
+                                    width="32"
+                                    height="32"
+                                    loading="lazy"
+                                    decoding="async"
+                                    aria-hidden="true"
+                                    draggable="false">
+
+                            <span class="~text-base/lg text-white font-semibold">{{ item.title | safe }}</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+                <!-- CTA -->
+                <a href="{{ about.ctaUrl }}" target="_blank" class="btn self-start">{{ about.cta }}</a>
+            </div>
+        </div>
     </section>
 
-    {% include "sections/cta.njk" %}
+    {% include "sections/our-team.njk" %}
+    {% include "sections/locations.njk" %}
+    {% include "sections/reviews.njk" %}
 {% endblock body %}

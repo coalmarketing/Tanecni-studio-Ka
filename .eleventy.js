@@ -134,6 +134,23 @@ module.exports = function (eleventyConfig) {
     });
 
     /*
+     * 🔍 Find Filter
+     * Returns the first item in a collection where the given attribute matches the value
+     * Usage: {{ collection | find("attribute", "value") }}
+     * Example: {{ collections.posts | find("slug", "my-post") }} → post object with slug "my-post"
+     */
+    eleventyConfig.addFilter("find", function (collection, attributePath, value) {
+        if (!Array.isArray(collection)) return null;
+
+        // Helper: resolve nested attribute (e.g. "data.title")
+        const getNestedValue = (obj, path) => {
+            return path.split(".").reduce((acc, key) => acc && acc[key], obj);
+        };
+
+        return collection.find(item => getNestedValue(item, attributePath) === value) || null;
+    });
+
+    /*
      * 🏷️ Page Language Filter
      * Filters collections by the current page language for i18n compatibility
      * Usage: {{ collections.all | pageLang | eleventyNavigation }}

@@ -250,3 +250,19 @@ html {
       }
   }
 }
+
+/* ==================== */
+/* === PROSE STYLES === */
+/* ==================== */
+.prose :where(.prose > :first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0 !important;
+}
+
+.prose :where(.prose > :last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  margin-bottom: 0 !important;
+}
+
+.prose :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

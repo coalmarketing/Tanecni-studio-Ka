@@ -2,12 +2,12 @@
 layout: "pages/contact.njk"
 
 title: 'Kontakt'
-description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
+description: 'Kontaktujte Taneční studio Ká a získejte informace o kurzech, rezervujte lekci nebo individuální hodiny. Jsme tu pro vás.'
 permalink: 'kontakt/'
 
 eleventyNavigation:
   key: Kontakt
-  order: 500
+  order: 600
 
 
 landing:
@@ -52,35 +52,4 @@ contentOne:
     privacyPolicy: zpracováním osobních údajů
 
     submit: Odeslat
-
-
-reviews:
-  topper: Reference
-  heading: Co o nás říkají naši tanečníci
-  text: Spokojenost našich tanečníků je pro nás tou nejlepší odměnou. Přečtěte si, jaké zážitky si z kurzů odnášejí účastníci všech věkových kategorií a dovedností.
-
-  cta: Rezervace
-  ctaUrl: https://google.com
-
-  items:
-    - text: Byla to výzva, ale zároveň nádherný zážitek. Děkuju za možnost soutěžit a učit se nové choreografie, s vámi to mělo smysl. Jste nejlepší, díky!
-      name: Lenka M.
-      note: účastnice pole dance a soutěže
-
-      imageUrl: /assets/images/reviews/review-1.jpg
-      imageAlt: Fotka recenzenta - Lenka M.
-
-    - text: Děkuju za roky plné tance, které jsem si naplno užil. Taneční studio mi přirostlo k srdci a nikdy na něj nezapomenu, byla to skvělá kapitola mého života.
-      name: Jakub P.
-      note: absolvent a soutěžní tanečník
-
-      imageUrl: /assets/images/reviews/review-2.jpg
-      imageAlt: Fotka recenzenta - Jakub P.
-
-    - text: Taneční mi daly víc, než jsem čekala. Nejen základy tance, ale i přátelství a skvělé zážitky. Děkuji za atmosféru, na věnečku tekly slzy dojetí.
-      name: Daniela P.
-      note: absolventka tanečních kurzů
-
-      imageUrl: /assets/images/reviews/review-3.jpg
-      imageAlt: Fotka recenzenta - Daniela P.
 ---

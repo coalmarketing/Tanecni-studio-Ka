@@ -1,0 +1,6 @@
+{
+	"tags": "siteContent",
+	"eleventyComputed": {
+		"permalink": false
+	}
+}

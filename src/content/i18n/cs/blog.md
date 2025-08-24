@@ -2,12 +2,12 @@
 layout: "pages/blog.njk"
 
 title: 'Blog'
-description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
+description: 'Novinky, tipy a zajímavosti ze světa tance. Taneční studio Ká v Letohradě sdílí zkušenosti, rady a inspiraci pro všechny taneční nadšence.'
 permalink: 'blog/'
 
 eleventyNavigation:
   key: Blog
-  order: 400
+  order: 500
 
 
 landing:

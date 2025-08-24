@@ -3,10 +3,54 @@
 {% block body %}
     {% include "sections/landing.njk" %}
 
-    <!-- SERVICES -->
-    <section class="py-24 ~px-4/8">
-        <div class="container m-auto"></div>
+    <!-- CONTENT -->
+    <section class="py-24 ~px-4/8 bg-white dark:bg-stone-900">
+        <div class="container m-auto flex max-xl:flex-col items-start ~gap-12/24">
+            <!-- IMAGE -->
+            <picture class="xl:sticky xl:top-32">
+                <!-- MOBILE IMAGE -->
+                <source media="(max-width: 600px)" srcset="{% getUrl contentOne.imageUrl | resize({ width: 736, height: 490 }) | avif %}" type="image/avif">
+                <source media="(max-width: 600px)" srcset="{% getUrl contentOne.imageUrl | resize({ width: 736, height: 490 }) | webp %}" type="image/webp">
+                <source media="(max-width: 600px)" srcset="{% getUrl contentOne.imageUrl | resize({ width: 736, height: 490 }) | jpeg %}" type="image/jpeg">
+                <!-- DESKTOP IMAGE -->
+                <source media="(min-width: 600px)" srcset="{% getUrl contentOne.imageUrl | resize({ width: 1724, height: 1150 }) | avif %}" type="image/avif">
+                <source media="(min-width: 600px)" srcset="{% getUrl contentOne.imageUrl | resize({ width: 1724, height: 1150 }) | webp %}" type="image/webp">
+                <source media="(min-width: 600px)" srcset="{% getUrl contentOne.imageUrl | resize({ width: 1724, height: 1150 }) | jpeg %}" type="image/jpeg">
+                <img
+                    class="object-cover rounded-4xl"
+                    src="{% getUrl contentOne.imageUrl | resize({ width: 1724, height: 1150 }) | jpeg %}"
+                    alt="{{ contentOne.imageAlt }}"
+                    width="862"
+                    height="575"
+                    loading="lazy"
+                    decoding="async"
+                    aria-hidden="true"
+                    draggable="false">
+            </picture>
+
+            <!-- TEXT + CTA -->
+            <div class="xl:shrink-0 xl:self-center flex flex-col gap-8">
+                {% set pageContent = collections.siteContent | find("data.title", "spolecensky-tanec-pokracovaci") %}
+
+                <!-- HEADING + TEXT -->
+                <div class="flex flex-col gap-4">
+                    <!-- TOPPER + HEADING -->
+                    <div class="flex flex-col items-start gap-2">
+                        <span class="topper">{{ contentOne.topper }}</span>
+                        <h2 class="~max-w-xs/lg ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ pageContent.data.heading }}</h2>
+                    </div>
+
+                    <div class="prose prose-stone prose-p:text-stone-800 dark:prose-p:text-stone-200 dark:prose-invert max-w-xl">
+                        {{ pageContent.templateContent | safe }}
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <a href="{{ contentOne.ctaUrl }}" target="_blank" class="btn self-start">{{ contentOne.cta }}</a>
+            </div>
+        </div>
     </section>
 
-    {% include "sections/cta.njk" %}
+    {% include "sections/locations.njk" %}
+    {% include "sections/reviews.njk" %}
 {% endblock body %}

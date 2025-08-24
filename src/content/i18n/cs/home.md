@@ -2,7 +2,7 @@
 layout: "pages/home.njk"
 
 title: 'Taneční kurzy v Letohradě'
-description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
+description: 'Taneční studio Ká v Letohradě nabízí kurzy pro děti, mládež i dospělé. Naučte se tančit latinu, orientální tance, pole dance i společenské tance.'
 permalink: '/'
 
 eleventyNavigation:
@@ -137,42 +137,11 @@ gallery:
 blog:
   topper: Blog
   heading: Články z našeho studia
-  text: V našem blogu najdete novinky z tanečního studia, pozvánky na akce, tipy k tanci i pohledu do zákulisí našich kurzů. Sledujte, co se u nás děje, a nechte se inspirovat.
+  text: V našem blogu najdete novinky z tanečního studia, pozvánky na akce, tipy k tanci i pohledu do zákulisí našich kurzů. Sledujte, co se u nás děje, a nechte se inspirovat.
 
   noPosts: Zatím tu nic není
   postCta: Číst dál
 
   cta: Zobrazit vše
   ctaUrl: /blog
-
-
-reviews:
-  topper: Reference
-  heading: Co o nás říkají naši tanečníci
-  text: Spokojenost našich tanečníků je pro nás tou nejlepší odměnou. Přečtěte si, jaké zážitky si z kurzů odnášejí účastníci všech věkových kategorií a dovedností.
-
-  cta: Rezervace
-  ctaUrl: https://google.com
-
-  items:
-    - text: Byla to výzva, ale zároveň nádherný zážitek. Děkuju za možnost soutěžit a učit se nové choreografie, s vámi to mělo smysl. Jste nejlepší, díky!
-      name: Lenka M.
-      note: účastnice pole dance a soutěže
-
-      imageUrl: /assets/images/reviews/review-1.jpg
-      imageAlt: Fotka recenzenta - Lenka M.
-
-    - text: Děkuju za roky plné tance, které jsem si naplno užil. Taneční studio mi přirostlo k srdci a nikdy na něj nezapomenu, byla to skvělá kapitola mého života.
-      name: Jakub P.
-      note: absolvent a soutěžní tanečník
-
-      imageUrl: /assets/images/reviews/review-2.jpg
-      imageAlt: Fotka recenzenta - Jakub P.
-
-    - text: Taneční mi daly víc, než jsem čekala. Nejen základy tance, ale i přátelství a skvělé zážitky. Děkuji za atmosféru, na věnečku tekly slzy dojetí.
-      name: Daniela P.
-      note: absolventka tanečních kurzů
-
-      imageUrl: /assets/images/reviews/review-3.jpg
-      imageAlt: Fotka recenzenta - Daniela P.
 ---

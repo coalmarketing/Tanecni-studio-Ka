@@ -1,8 +1,9 @@
 <!-- LANDING -->
-<section class="relative ~px-4/8 pt-60 pb-16 bg-background z-10">
-  <div class="container m-auto flex flex-col items-start gap-6">
+<section class="relative ~px-4/8 ~pt-56/72 pb-16 bg-background overflow-hidden z-10
+  before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:bg-gradient-to-t before:from-black before:to-black/25 before:-z-10">
+  <div class="container m-auto flex flex-col items-center md:items-start gap-6">
     <!-- HEADING -->
-    <span class="text-white text-4xl font-bold leading-none">
+    <span class="text-center text-white text-4xl font-bold leading-none">
       {{ title }}
     </span>
 
@@ -42,13 +43,28 @@
   </div>
 
   <!-- BACKGROUND -->
-  <img
-    class="absolute top-0 right-0 h-full w-auto object-cover opacity-50 -z-10"
-    src="/assets/svgs/landing/TS-Ká_landing.svg"
-    alt="Pozadí úvodní sekce"
-    decoding="async"
-    loading="lazy"
-    width="436"
-    height="436"
-    draggable="false"/>
+  <picture>
+    <!-- MOBILE IMAGE -->
+    <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/landing.jpg' | avif %}" type="image/avif">
+    <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/landing.jpg' | webp %}" type="image/webp">
+    <source media="(max-width: 600px)" srcset="{% getUrl '/assets/images/landing.jpg' | jpeg %}" type="image/jpeg">
+    <!-- TABLET IMAGE -->
+    <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/landing.jpg' | avif %}" type="image/avif">
+    <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/landing.jpg' | webp %}" type="image/webp">
+    <source media="(max-width: 1024px)" srcset="{% getUrl '/assets/images/landing.jpg' | jpeg %}" type="image/jpeg">
+    <!-- DESKTOP IMAGE -->
+    <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/landing.jpg' | resize({ width: 2880, height: 654 }) | avif %}" type="image/avif">
+    <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/landing.jpg' | resize({ width: 2880, height: 654 }) | webp %}" type="image/webp">
+    <source media="(min-width: 1024px)" srcset="{% getUrl '/assets/images/landing.jpg' | resize({ width: 2880, height: 654 }) | jpeg %}" type="image/jpeg">
+    <img
+      class="object-cover absolute top-0 left-0 h-full w-full blur-sm -z-20"
+      src="{% getUrl '/assets/images/landing.jpg' | resize({ width: 2880, height: 654 }) | jpeg %}"
+      alt="Taneční sál s tančími páry"
+      width="1920"
+      height="436"
+      loading="lazy"
+      decoding="async"
+      aria-hidden="true"
+      draggable="false">
+  </picture>
 </section>

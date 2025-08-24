@@ -18,6 +18,23 @@ media_folder: "src/assets/images/cms"
 public_folder: "/assets/images/cms"
 
 collections:
+  # SITE CONTENT CONFIG
+  - label: "Obsah webu"
+    name: "siteContent"
+    folder: "src/content/siteContent"
+    create: false
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    fields:
+      - { label: "Název podstránky", name: "title", widget: "string" }
+      - { label: "Nadpis", name: "heading", widget: "string" }
+      - {
+          label: "Štítky",
+          name: "tags",
+          widget: "hidden",
+          default: ["siteContent"],
+        }
+      - { label: "Obsah", name: "body", widget: "markdown" }
+
   # BLOG CONFIG
   - label: "Blog"
     name: "blog"
@@ -54,3 +71,63 @@ collections:
         }
       - { label: "Popis obrázku", name: "imageAlt", widget: "string" }
       - { label: "Obsah", name: "body", widget: "markdown" }
+
+  # TEAM CONFIG
+  - label: "Lektoři"
+    name: "team"
+    identifier_field: "name"
+    folder: "src/content/team"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Jméno", name: "name", widget: "string" }
+      - { label: "Štítky", name: "tags", widget: "hidden", default: ["team"] }
+      - {
+          label: "Fotka",
+          name: "image",
+          widget: "image",
+          choose_url: false, # Only allow local images - for image optimization reasons
+        }
+      - {
+          label: "Kurzy",
+          name: "courses",
+          widget: "list",
+          hint: "Taneční kurzy, které lektor vyučuje. Jednotlivé položky oddělujte čárkou.",
+        }
+
+  # GALLERY PHOTOS
+  - label: "Galerie"
+    name: "gallery"
+    folder: "src/content/gallery"
+    editor:
+      preview: false
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Název alba", name: "title", widget: "string" }
+      - {
+          label: "Odkaz pro zobrazení alba",
+          name: "url",
+          widget: "string",
+          required: false,
+          hint: "URL odkaz sloužící k zobrazení celého alba na Google Disku",
+        }
+      - name: images
+        label: Fotografie
+        widget: list
+        fields:
+          - { name: url, label: Fotografie, widget: image }
+          - {
+              label: "Popis fotografie",
+              name: "alt",
+              widget: "string",
+              required: false,
+            }
+      - {
+          label: "Štítky",
+          name: "tags",
+          widget: "hidden",
+          default: ["gallery"],
+        }

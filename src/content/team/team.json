@@ -1,0 +1,6 @@
+{
+	"tags": "team",
+	"eleventyComputed": {
+		"permalink": false
+	}
+}
