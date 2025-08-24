@@ -16,7 +16,7 @@
             {% for item in locations.items %}
                 <li class="flex flex-col items-center">
                     <!-- MAP IFRAME -->
-                    <iframe class="h-[24rem] w-full rounded-3xl" src="{{ item.iframeUrl }}" width="496" height="384" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="h-[24rem] w-full rounded-3xl" src="{{ item.iframeUrl }}" title="{{ item.title }} - mapa" width="496" height="384" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                     <!-- TEXT CARD -->
                     <div class="flex flex-col items-center gap-8 w-[calc(100%-1rem)] sm:w-full max-w-[24rem] max-sm:px-4 p-6 -mt-8 bg-background rounded-3xl">

@@ -3,7 +3,7 @@
     <ul class="container m-auto flex justify-between items-center ~gap-8/32">
         {% for item in partners.items %}
             <li class="flex-1">
-                <a href="{{ item.url }}" target="_blank" class="group">
+                <a href="{{ item.url }}" target="_blank" class="group" aria-label="Partner - {{ item.url }}">
                     <img
                         class="w-full h-auto transition-[filter] duration-300 grayscale group-hover:grayscale-0 {%- if item.darkImageUrl %} dark:hidden {%- endif %}"
                         src="{{ item.imageUrl }}"

@@ -60,8 +60,8 @@
               <button
                   class="dropdown-button flex items-center gap-1.5 ~p-2/4 whitespace-nowrap transition-colors duration-300 text-stone-200 hover:text-white"
                   aria-expanded="false"
-                  aria-controls="dropdown-{{ entry.key }}"
-                  aria-label="dropdown-{{ entry.key }}"
+                  aria-controls="dropdown-{{ entry.key | slug }}"
+                  aria-label="dropdown-{{ entry.key | slug }}"
                   type="button"
                 >
                 <span>{{ entry.key }}</span>
@@ -74,7 +74,7 @@
 
               {# Dropdowns have another ul/li set up within the parent li, which gets rendered in the same way as a normal link #}
               <div class="absolute top-[calc(100%-0.25rem)] left-0 p-4 transition-transform duration-300 scale-y-0 origin-top group-hover/li:scale-y-100">
-                <ul id="dropdown-{{ entry.key }}" class="flex flex-col bg-background/80 border-b-2 border-secondary">
+                <ul id="dropdown-{{ entry.key | slug }}" class="flex flex-col bg-background/80 border-b-2 border-secondary">
                   {% for child in entry.children %}
                     {# Define a hasChild variable to make it easier to test what navigation items are have child dropdown pages #}
                     {% set hasSubchild = child.children.length %}
@@ -85,8 +85,8 @@
                         <button
                           class="dropdown-button flex items-center gap-1.5 py-3 px-4 whitespace-nowrap transition-colors duration-300 text-stone-200 hover:text-white hover:bg-background peer-hover:bg-background group-hover/subli:bg-background"
                           aria-expanded="false"
-                          aria-controls="dropdown-{{ child.key }}"
-                          aria-label="dropdown-{{ child.key }}"
+                          aria-controls="dropdown-{{ child.key | slug }}"
+                          aria-label="dropdown-{{ child.key | slug }}"
                           type="button"
                         >
                           <span>{{ child.key }}</span>
@@ -98,7 +98,7 @@
                         </button>
 
                         <div class="absolute top-4 left-[calc(100%-1rem)] transition-transform duration-300 scale-x-0 origin-left group-hover/subli:scale-x-100">
-                          <ul id="dropdown-{{ child.key }}" class="flex flex-col bg-background border-b-2 border-secondary">
+                          <ul id="dropdown-{{ child.key | slug }}" class="flex flex-col bg-background border-b-2 border-secondary">
                             {% for subchild in child.children %}
                               <li class="inline-block">
                                 <a
