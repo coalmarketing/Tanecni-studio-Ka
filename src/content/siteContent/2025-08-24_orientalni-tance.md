@@ -22,7 +22,7 @@ Z hlediska moderní medicíny má orientální tanec řadu pozitivních účink�
 
 Pro ženu je TANEC odrazem její přirozenosti bez ohledu na věk či tělesné proporce!!!
 
-##### Oblečení
+##### **Oblečení**
 
 Vhodné je pohodlné oblečení, které neomezuje Váš pohyb, je důležité, abyste se cítili příjemně a uvolněně. Když tančíte, jste ŽENA, nebojte se barev a kreativity. Doporučuje se top s volným bříškem, dlouhá (event. krátká) volná sukně, obuv – piškoty (dobře ohebné boty - cvičky nebo ponožky). Nejdůležitější součástí Vašeho „outfitu“ je úsměv na tváři :).
 
@@ -32,18 +32,14 @@ Vhodné je pohodlné oblečení, které neomezuje Váš pohyb, je důležité, a
 
 hodina se bude konat v případě minimálního počtu přihlášených - 5 osob
 
-
 **Ceny**
 
 * jednorázový vstup (1 h) - 100,- Kč
 * **permanentky**
 
-   
-
   (v rezervačním systému si zakoupíte vstupovou permanentku na 
 
   **10 nebo 20 lekcí Solo latin dance, orientální tance)**
 
-
-  - 10 vstupů - 900,- Kč
-  - 20 vstupů - 1.700,- Kč
+  * 10 vstupů - 900,- Kč
+  * 20 vstupů - 1.700,- Kč
