@@ -13,9 +13,9 @@
 
 {% block body %}
     <!-- HERO -->
-    <section class="~py-12/24 ~px-4/8 relative flex items-end min-h-screen z-10
+    <section class="~py-12/24 ~px-4/8 relative flex items-end ~min-h-[40rem]/[64rem] lg:min-h-screen z-10
         before:absolute before:bottom-0 before:left-0 before:h-3/4 xl:before:h-1/2 before:w-full before:bg-gradient-to-t before:from-black before:to-black/0 before:-z-10">
-        <div class="container mx-auto flex max-xl:flex-col justify-between xl:items-end gap-8 xl:gap-16">
+        <div class="container mx-auto flex max-xl:flex-col justify-between xl:items-end ~gap-4/8 xl:gap-16">
             <!-- TOPPER + HEADING -->
             <div class="flex flex-col ~gap-2/4 items-start">
                 <span class="topper bg-background">
@@ -33,14 +33,14 @@
                     <span>{{ hero.topper }}</span>
                 </span>
 
-                <h1 class="~max-w-sm/xl ~text-4xl/6xl text-white font-bold !leading-[1.1]">{{ hero.heading }}</h1>
+                <h1 class="~max-w-xs/xl ~text-3xl/6xl text-white font-bold !leading-[1.1]">{{ hero.heading }}</h1>
             </div>
 
             <!-- TEXT + CTA -->
-            <div class="flex flex-col gap-8">
+            <div class="flex flex-col ~gap-6/8">
                 <!-- SUBHEADING + TEXT -->
                 <div class="flex flex-col ~gap-2/4">
-                    <h2 class="~text-lg/2xl text-white font-bold">{{ hero.subheading }}</h2>
+                    <h2 class="max-md:hidden ~text-lg/2xl text-white font-bold">{{ hero.subheading }}</h2>
                     <p class="~max-w-lg/2xl ~text-base/xl text-stone-200">{{ hero.text }}</p>
                 </div>
 
@@ -58,9 +58,9 @@
         <!-- BACKGROUND IMAGE -->
         <picture>
             <!-- MOBILE IMAGE -->
-            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ width: 800, height: 1800, position: 'top' }) | avif %}" type="image/avif">
-            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ width: 800, height: 1800, position: 'top' }) | webp %}" type="image/webp">
-            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ width: 800, height: 1800, position: 'top' }) | jpeg %}" type="image/jpeg">
+            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1536, position: 'top' }) | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1536, position: 'top' }) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1536, position: 'top' }) | jpeg %}" type="image/jpeg">
             <!-- TABLET IMAGE -->
             <source media="(max-width: 1024px)" srcset="{% getUrl hero.imageUrl | resize({ width: 1600, height: 2048, position: 'top' }) | avif %}" type="image/avif">
             <source media="(max-width: 1024px)" srcset="{% getUrl hero.imageUrl | resize({ width: 1600, height: 2048, position: 'top' }) | webp %}" type="image/webp">

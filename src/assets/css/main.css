@@ -1702,6 +1702,14 @@ select {
   min-height: 100vh;
 }
 
+.min-h-\[64rem\] {
+  min-height: 64rem;
+}
+
+.min-h-\[48rem\] {
+  min-height: 48rem;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -2052,6 +2060,11 @@ select {
      object-fit: cover;
 }
 
+.object-top {
+  -o-object-position: top;
+     object-position: top;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -2362,6 +2375,11 @@ select {
   line-height: clamp(1rem,0.82rem + 0.45vw,1.25rem)/* fluid from 1rem at 40rem to 1.25rem at 96rem */;
 }
 
+.\~text-3xl\/6xl {
+  font-size: clamp(1.875rem,0.536rem + 3.348vw,3.75rem)/* fluid type from 1.875rem at 40rem to 3.75rem at 96rem */;
+  line-height: clamp(2.25rem,1.18rem + 2.68vw,3.75rem)/* fluid from 2.25rem at 40rem to 3.75rem at 96rem */;
+}
+
 .\~top-\[-4rem\]\/\[2rem\] {
   top: clamp(-4rem,-8.29rem + 10.71vw,2rem)/* fluid from -4rem at 40rem to 2rem at 96rem */;
 }
@@ -2390,6 +2408,22 @@ select {
   height: clamp(24rem,3.29rem + 51.79vw,53rem)/* fluid from 24rem at 40rem to 53rem at 96rem */;
 }
 
+.\~min-h-\[48rem\]\/\[64rem\] {
+  min-height: clamp(48rem,36.57rem + 28.57vw,64rem)/* fluid from 48rem at 40rem to 64rem at 96rem */;
+}
+
+.\~min-h-\[32rem\]\/\[64rem\] {
+  min-height: clamp(32rem,9.14rem + 57.14vw,64rem)/* fluid from 32rem at 40rem to 64rem at 96rem */;
+}
+
+.\~min-h-\[56rem\]\/\[64rem\] {
+  min-height: clamp(56rem,50.29rem + 14.29vw,64rem)/* fluid from 56rem at 40rem to 64rem at 96rem */;
+}
+
+.\~min-h-\[40rem\]\/\[64rem\] {
+  min-height: clamp(40rem,22.86rem + 42.86vw,64rem)/* fluid from 40rem at 40rem to 64rem at 96rem */;
+}
+
 .\~w-7\/8 {
   width: clamp(1.75rem,1.57rem + 0.45vw,2rem)/* fluid from 1.75rem at 40rem to 2rem at 96rem */;
 }
@@ -2408,6 +2442,10 @@ select {
 
 .\~max-w-xs\/md {
   max-width: clamp(20rem,14.29rem + 14.29vw,28rem)/* fluid from 20rem at 40rem to 28rem at 96rem */;
+}
+
+.\~max-w-xs\/xl {
+  max-width: clamp(20rem,8.57rem + 28.57vw,36rem)/* fluid from 20rem at 40rem to 36rem at 96rem */;
 }
 
 .\~gap-12\/24 {
@@ -2444,6 +2482,10 @@ select {
 
 .\~gap-8\/32 {
   gap: clamp(2rem,-2.29rem + 10.71vw,8rem)/* fluid from 2rem at 40rem to 8rem at 96rem */;
+}
+
+.\~gap-6\/8 {
+  gap: clamp(1.5rem,1.14rem + 0.89vw,2rem)/* fluid from 1.5rem at 40rem to 2rem at 96rem */;
 }
 
 .\~gap-x-16\/32 {
@@ -3325,6 +3367,10 @@ html {
 }
 
 @media (min-width: 40rem) {
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:aspect-\[2\/1\] {
     aspect-ratio: 2/1;
   }
@@ -3343,6 +3389,10 @@ html {
 }
 
 @media (min-width: 48rem) {
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:items-start {
     align-items: flex-start;
   }
@@ -3379,6 +3429,10 @@ html {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:min-h-screen {
+    min-height: 100vh;
   }
 
   .lg\:basis-1\/3 {
