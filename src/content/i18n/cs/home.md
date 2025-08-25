@@ -19,7 +19,7 @@ hero:
 
   cta:
     - text: Rezervace
-      url: https://www.google.com/
+      url: https://rezervace.tanecnistudioka.cz/
       target: _blank
 
     - text: Nabídka kurzů

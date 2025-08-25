@@ -47,7 +47,7 @@ about:
       title: Široká nabídka tanečních stylů
 
   cta: Rezervace
-  ctaUrl: https://google.com
+  ctaUrl: https://rezervace.tanecnistudioka.cz/
 
   imageUrl: /assets/images/about-us/about-us.jpg
   imageAlt: Instruktoři tanečního studia Ká
