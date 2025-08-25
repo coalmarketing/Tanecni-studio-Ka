@@ -4,7 +4,6 @@ heading: Kurzy pole dance pro začátečníky i pokročilé
 tags:
   - siteContent
 ---
-
 **Pole dance** (tanec na tyči) je moderní tanečně-sportovní disciplína. Spojuje dohromady prvky tance s prvky gymnastiky a akrobacie na vertikální tyči i mimo ni. Pole dance zejména na soutěžní úrovni klade na sportovce vysoké nároky, zejména co se týče fyzické síly, flexibility, tanečního projevu a také přesnost provedení jednotlivých prvků i floorworku (taneční sekvence mimo tyč).
 Pole dance můžeme zařadit mezi fitness, které zaručuje komplexní zpevnění celého těla zejména břišních svalů a svalů horní poloviny těla.
 *Zdroj: Wikipedie*
@@ -17,7 +16,6 @@ Díky pravidelnému tréninku pole dance posílíte svaly, vytvarujete postavu, 
 
 Ze začátku stačí šortky a tričko či tílko, později sportovní podprsenka kvůli úchopům (opěrným bodům) také za bok či břicho. Na rozcvičku doporučujeme také legíny nebo nadkolenky, aby se svaly prohřály a nedošlo k jejich poranění během samotné lekce. Tančíme bosy. Jste povinné si před začátkem lekce odložit prstýnky a jiné šperky včetně piercingů z důvodu možného zranění či poškození tyčí. S sebou si noste pití a ručník, event. svoji podložku na cvičení (lze zapůjčit na místě).
 
-
 **Termíny kurzů**
 
 * středa 19:00 - 20:00 hodin
@@ -27,6 +25,6 @@ Ze začátku stačí šortky a tričko či tílko, později sportovní podprsenk
 
 **Ceny**
 
-* Kurz, 10 lekcí 1.800,- Kč
+* Kurz, 10 lekcí 1.800,- Kč (v rezervačním systému si zakoupíte vstupovou permanentku na 10 lekcí pole dance)
 * jednotlivá hodina 200,- Kč
 * individuální hodina 600,- Kč (po předchozí telefonické dohodě)
