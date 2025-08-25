@@ -21,32 +21,17 @@
         <!-- REVIEWS -->
         <ul class="grid grid-cols-1 lg:grid-cols-3 ~gap-4/6">
             {% for item in reviews.items %}
-                <li class="flex flex-col items-center gap-12 py-12 px-8 bg-background rounded-3xl">
-                    <!-- PHOTO -->
-                    <div class="relative">
-                        <img
-                            class="object-cover rounded-full"
-                            src="{{ item.imageUrl }}"
-                            alt="{{ item.imageAlt }}"
-                            width="96"
-                            height="96"
-                            loading="lazy"
-                            decoding="async"
-                            aria-hidden="true"
-                            draggable="false">
-
-                        <!-- QUOTE ICON -->
-                        <img
-                            class="absolute bottom-0 left-1/2 translate-y-1/2 -translate-x-1/2"
-                            src="/assets/svgs/reviews/quote.svg"
-                            alt="Ikona uvozovek"
-                            width="48"
-                            height="48"
-                            loading="lazy"
-                            decoding="async"
-                            aria-hidden="true"
-                            draggable="false">
-                    </div>
+                <li class="flex flex-col items-center gap-4 py-12 px-8 bg-background rounded-3xl">
+                    <!-- QUOTE ICON -->
+                    <img
+                        src="/assets/svgs/reviews/quote.svg"
+                        alt="Ikona uvozovek"
+                        width="48"
+                        height="48"
+                        loading="lazy"
+                        decoding="async"
+                        aria-hidden="true"
+                        draggable="false">
 
                     <!-- TEXT + NAME -->
                     <div class="flex flex-col items-center gap-8">
