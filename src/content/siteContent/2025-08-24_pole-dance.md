@@ -23,6 +23,10 @@ Ze začátku stačí šortky a tričko či tílko, později sportovní podprsenk
 * čtvrtek 17:00 - 18:00 hodin
 * čtvrtek 18:00 - 19:00 hodin
 
+
+hodina se bude konat v případě minimálního počtu přihlášených - 3 osob
+
+
 **Ceny**
 
 * Kurz, 10 lekcí 1.800,- Kč (v rezervačním systému si zakoupíte vstupovou permanentku na 10 lekcí pole dance)
