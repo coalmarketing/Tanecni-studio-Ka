@@ -58,9 +58,9 @@
         <!-- BACKGROUND IMAGE -->
         <picture>
             <!-- MOBILE IMAGE -->
-            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1536, position: 'top' }) | avif %}" type="image/avif">
-            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1536, position: 'top' }) | webp %}" type="image/webp">
-            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1536, position: 'top' }) | jpeg %}" type="image/jpeg">
+            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1152, position: 'top' }) | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1152, position: 'top' }) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl hero.imageUrl | resize({ height: 1152, position: 'top' }) | jpeg %}" type="image/jpeg">
             <!-- TABLET IMAGE -->
             <source media="(max-width: 1024px)" srcset="{% getUrl hero.imageUrl | resize({ width: 1600, height: 2048, position: 'top' }) | avif %}" type="image/avif">
             <source media="(max-width: 1024px)" srcset="{% getUrl hero.imageUrl | resize({ width: 1600, height: 2048, position: 'top' }) | webp %}" type="image/webp">
@@ -122,9 +122,9 @@
                             <!-- BACKGROUND IMAGE -->
                             <picture>
                                 <!-- MOBILE IMAGE -->
-                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 736, height: 768 }) | avif %}" type="image/avif">
-                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 736, height: 768 }) | webp %}" type="image/webp">
-                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 736, height: 768 }) | jpeg %}" type="image/jpeg">
+                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 552, height: 576 }) | avif %}" type="image/avif">
+                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 552, height: 576 }) | webp %}" type="image/webp">
+                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 552, height: 576 }) | jpeg %}" type="image/jpeg">
                                 <!-- TABLET IMAGE -->
                                 <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ height: 768 }) | avif %}" type="image/avif">
                                 <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ height: 768 }) | webp %}" type="image/webp">
