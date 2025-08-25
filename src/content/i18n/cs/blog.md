@@ -16,4 +16,9 @@ landing:
       url: /
 
     - title: Blog
+
+
+contentOne:
+  topper: Blog
+  heading: Články z našeho studia
 ---

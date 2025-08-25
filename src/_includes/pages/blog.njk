@@ -3,9 +3,62 @@
 {% block body %}
     {% include "sections/landing.njk" %}
 
-    <!-- SERVICES -->
-    <section class="py-24 ~px-4/8">
-        <div class="container m-auto"></div>
+    <!-- BLOG -->
+    <section class="py-24 ~px-4/8 bg-white dark:bg-stone-950">
+        <div class="container m-auto flex flex-col ~gap-4/8">
+            <!-- TOPPER + HEADING -->
+            <div class="flex flex-col items-center gap-2">
+                <span class="topper">{{ contentOne.topper }}</span>
+                <h2 class="max-w-lg text-center ~text-3xl/5xl text-black dark:text-white font-bold !leading-[1.1]">{{ contentOne.heading }}</h2>
+            </div>
+
+            {% if collections.post | length === 0 %}
+                <p class="~text-sm/base text-stone-800 dark:text-stone-200">{{ blog.noPosts }}</p>
+            {% else %}
+                <ul class="grid grid-cols-1 lg:grid-cols-3 ~gap-4/6">
+                    {% for post in collections.post | limit(3) | reverse %}
+                        <li class="group/li">
+                            <a href="{{ post.url }}" class="group/a relative flex flex-col justify-end items-start gap-2 h-[24rem] py-4 px-6 rounded-3xl overflow-hidden z-10
+                            before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-gradient-to-t before:from-black before:to-black/0 before:-z-10">
+                                <!-- POST DATE -->
+                                <span class="absolute top-4 right-4 py-1 px-4 bg-background text-sm text-white font-medium whitespace-nowrap rounded-lg">
+                                    {{ post.data.date | postDate }}
+                                </span>
+
+                                <!-- BLOG TITLE -->
+                                <h3 class="~text-xl/2xl text-white font-semibold">{{ post.data.title }}</h3>
+                                <p class="~text-base/lg text-stone-200 line-clamp-2">{{ post.data.description }}</p>
+
+                                <picture>
+                                    <!-- MOBILE IMAGE -->
+                                    <source media="(max-width: 600px)" srcset="{% getUrl post.data.image | resize({ width: 736, height: 768 }) | avif %}" type="image/avif">
+                                    <source media="(max-width: 600px)" srcset="{% getUrl post.data.image | resize({ width: 736, height: 768 }) | webp %}" type="image/webp">
+                                    <source media="(max-width: 600px)" srcset="{% getUrl post.data.image | resize({ width: 736, height: 768 }) | jpeg %}" type="image/jpeg">
+                                    <!-- TABLET IMAGE -->
+                                    <source media="(max-width: 1024px)" srcset="{% getUrl post.data.image | resize({ width: 1524, height: 768 }) | avif %}" type="image/avif">
+                                    <source media="(max-width: 1024px)" srcset="{% getUrl post.data.image | resize({ width: 1524, height: 768 }) | webp %}" type="image/webp">
+                                    <source media="(max-width: 1024px)" srcset="{% getUrl post.data.image | resize({ width: 1524, height: 768 }) | jpeg %}" type="image/jpeg">
+                                    <!-- DESKTOP IMAGE -->
+                                    <source media="(min-width: 1024px)" srcset="{% getUrl post.data.image | resize({ width: 992, height: 768 }) | avif %}" type="image/avif">
+                                    <source media="(min-width: 1024px)" srcset="{% getUrl post.data.image | resize({ width: 992, height: 768 }) | webp %}" type="image/webp">
+                                    <source media="(min-width: 1024px)" srcset="{% getUrl post.data.image | resize({ width: 992, height: 768 }) | jpeg %}" type="image/jpeg">
+                                    <img
+                                        class="object-cover absolute top-0 left-0 h-full w-full -z-20 transition-transform duration-300 group-hover/a:scale-110"
+                                        src="{% getUrl post.data.image | resize({ width: 992, height: 768 }) | jpeg %}"
+                                        alt="{{ post.data.imageAlt }}"
+                                        width="496"
+                                        height="384"
+                                        loading="lazy"
+                                        decoding="async"
+                                        aria-hidden="true"
+                                        draggable="false">
+                                </picture>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
     </section>
 
 {% endblock body %}
