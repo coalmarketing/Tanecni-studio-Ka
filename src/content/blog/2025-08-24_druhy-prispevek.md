@@ -1,7 +1,7 @@
 ---
 title: Dress code - dámy
 url: Dress code - dámy
-description: Jak má vypadat správné oblečení pro pána do tanečního kurzu
+description: Jak má vypadat správné oblečení pro dámu do tanečního kurzu
 author: Admin
 date: 2025-08-25T18:49:00.000+02:00
 tags:
