@@ -2,7 +2,7 @@
 layout: "pages/gdpr.njk"
 
 title: 'GDPR'
-description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
+description: 'Seznamte se s tím, jak chráníme vaše osobní údaje a dodržujeme GDPR. Transparentní pravidla ochrany soukromí našeho tanečního studia.'
 permalink: 'gdpr/'
 
 

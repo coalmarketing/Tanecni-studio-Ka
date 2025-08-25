@@ -2,7 +2,7 @@
 layout: "pages/provozni-rad.njk"
 
 title: 'Provozní řád'
-description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
+description: 'Seznamte se s provozním řádem našeho tanečního studia. Jasná pravidla zajišťují férové prostředí a bezpečí pro všechny tanečníky.'
 permalink: 'provozni-rad/'
 
 

@@ -2,7 +2,7 @@
 layout: "pages/podminky-ucasti.njk"
 
 title: 'Podmínky účasti'
-description: 'V Senoweb se specializujeme na tvorbu webových stránek na míru. Nepoužíváme koupené šablony, nástroje pro automatizované budování webů ani nástroje, které by váš web zahlcovali zbytečným kódem a tím vaší stránku zpomalovaly.'
+description: 'Přečtěte si podmínky účasti na našich tanečních kurzech. Transparentní informace o registraci, platbách a organizaci výuky.'
 permalink: 'podminky-ucasti/'
 
 
