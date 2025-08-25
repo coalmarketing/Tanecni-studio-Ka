@@ -11,3 +11,30 @@ V rámci kurzu se mladí tanečníci učí pokročilé taneční figury, kombina
 Sportovní kurz je ideální pro ty, kteří chtějí prohloubit své znalosti a připravit se na soutěže, ale také pro všechny, kdo chtějí zlepšit kondici, flexibilitu a pohybovou koordinaci. Lekce probíhají v přátelské a motivující atmosféře, kde se mladí tanečníci učí, baví a navazují nová přátelství.
 
 Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneční techniku, ale také disciplínu, soustředění a radost z pohybu. Kurz podporuje rozvoj tanečních schopností, fyzickou kondici a týmového ducha, což je skvělý základ pro všechny, kteří chtějí taneční kariéru nebo se jen aktivně bavit.
+
+**Jsou určené pro mládežnické a dětské páry (max. 10 párů)**
+
+* standardní tance: waltz, valčík, tango, foxtrot, slowfox, quickstep 
+* latinsko–americké tance: cha-cha, jive, samba, rumba, paso doble 
+* karibské tance: merengue, mambo, salsa, bachata 
+* lidové tance: polka, čardáš 
+* národně společenské tance: polonéza, mazurka 
+* vzpomínky na staré časy: charleston, letkis, blues, country, rokenrol 
+* disco: taneční novinky, taneční hry 
+
+**Lekce trvá 2 hodiny a zahrnuje**:
+
+* rozcvičku
+* společnou výuku od základních kroků, figurací a vazeb po soutěžní techniky společenských tanců a figurací
+* individuální trénink dle pokročilosti
+* protažení
+
+**Místo konání:** Taneční studio „Ká“, přízemí ZŠ Komenského 269, Letohrad
+
+**Termín kurzu:** pondělí 16:30 – 18:30 hodin 
+
+**Cena na pololetí:** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
+
+\- možnost jedné lekce zdarma - můžete se přijít nezávazně podívat a vyzkoušet si 
+
+**Oblečení:** sportovní, volné, pohodlné, taneční boty (doporučujeme společenskou obuv, ve které budete navštěvovat plesy apod.)
