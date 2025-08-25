@@ -13,7 +13,7 @@ imageAlt: Dress code - pánové
 
 Na prvním místě bude při výběru obleku jeho pohodlnost a až na druhém místě bude vzhled. Volme vždy tmavé barvy obleku, protože se jedná o společenskou událost odehrávanou ve večerních hodinách (tj. po 18:00 hod). K dispozici máme výběr barev - antracit, granit, tmavě šedou, tmavě modrou apod. Oblek nesmí obsahovat nášivky či značky, a proto je raději při koupi odstraňte. Všechny kapsy a kapsičky saka rozpárejte. Prodávají se sešité k udržení fazóny saka při jejich skladování a přepravě.
 
-U jednořadového saka se poslední knoflík nezapíná. Pod sako se obléká zásadně košile s dlouhým rukávem, který musí o 0,5 - 1 cm vyčuhovat ze saka. Délka rukávu saka by měla dosahovat ke kořeni palce ruky.
+U jednořadového saka se poslední knoflík nezapíná. Pod sako se obléká zásadně košile s dlouhým rukávem, který musí být o 0,5 - 1 cm vidět ze saka. Délka rukávu saka by měla dosahovat ke kořeni palce ruky.
 Doporučujeme motýlka nebo kravatu, jejíž délka by měla sahat na dva prsty od opasku u kalhot.
 
 Volba barvy kravaty a košile jsou téměř neomezené. Záleží na Vašem určitém vkusu. Doba dává přednost barevnosti a pestrosti. Pokud si nevíte rady, volte raději světlou jednobarevnou košili. To je osvědčená klasika. Pokud budete znát předem barevnou kombinaci Vaší partnerky, laďte s ní i Vaše barvy.
