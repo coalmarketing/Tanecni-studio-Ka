@@ -33,7 +33,7 @@ Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneč
 
 **Termín kurzu:** pondělí 16:30 – 18:30 hodin 
 
-**Cena na pololetí:** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí) 
+**Cena na pololetí:** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
 
 \- možnost jedné lekce zdarma - můžete se přijít nezávazně podívat a vyzkoušet si 
 
