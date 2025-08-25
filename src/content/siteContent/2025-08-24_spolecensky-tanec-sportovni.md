@@ -22,7 +22,12 @@ Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneč
 * vzpomínky na staré časy: charleston, letkis, blues, country, rokenrol 
 * disco: taneční novinky, taneční hry 
 
+**Lekce trvá 2 hodiny a zahrnuje**:
 
+* rozcvičku
+* společnou výuku od základních kroků, figurací a vazeb po soutěžní techniky společenských tanců a figurací
+* individuální trénink dle pokročilosti
+* protažení
 
 **Místo konání:** Taneční studio „Ká“, přízemí ZŠ Komenského 269, Letohrad
 
