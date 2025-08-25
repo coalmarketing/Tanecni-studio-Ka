@@ -6,7 +6,7 @@ author: Admin
 date: 2025-08-25T18:22:00.000+02:00
 tags:
   - post
-image: /assets/images/cms/fotogalerie_plesy_9.jpg
+image: /assets/images/cms/jak-ma-sedet-pansky-oblek1-731x1024.jpg
 imageAlt: Dress code - pánové
 ---
 #### Dress code - pánové
