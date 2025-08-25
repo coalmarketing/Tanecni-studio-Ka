@@ -122,17 +122,13 @@
                             <!-- BACKGROUND IMAGE -->
                             <picture>
                                 <!-- MOBILE IMAGE -->
-                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | avif %}" type="image/avif">
-                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | webp %}" type="image/webp">
-                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | jpeg %}" type="image/jpeg">
+                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 736, height: 768 }) | avif %}" type="image/avif">
+                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 736, height: 768 }) | webp %}" type="image/webp">
+                                <source media="(max-width: 600px)" srcset="{% getUrl item.imageUrl | resize({ width: 736, height: 768 }) | jpeg %}" type="image/jpeg">
                                 <!-- TABLET IMAGE -->
-                                <source media="(max-width: 1024px)" srcset="{% getUrl item.imageUrl | avif %}" type="image/avif">
-                                <source media="(max-width: 1024px)" srcset="{% getUrl item.imageUrl | webp %}" type="image/webp">
-                                <source media="(max-width: 1024px)" srcset="{% getUrl item.imageUrl | jpeg %}" type="image/jpeg">
-                                <!-- DESKTOP IMAGE -->
-                                <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 768 }) | avif %}" type="image/avif">
-                                <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 768 }) | webp %}" type="image/webp">
-                                <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ width: 732, height: 768 }) | jpeg %}" type="image/jpeg">
+                                <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ height: 768 }) | avif %}" type="image/avif">
+                                <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ height: 768 }) | webp %}" type="image/webp">
+                                <source media="(min-width: 1024px)" srcset="{% getUrl item.imageUrl | resize({ height: 768 }) | jpeg %}" type="image/jpeg">
                                 <img
                                     class="object-cover absolute top-0 left-0 h-full w-full -z-20 transition-transform duration-300 group-hover:scale-110"
                                     src="{% getUrl item.imageUrl | resize({ width: 732, height: 768 }) | jpeg %}"
