@@ -19,7 +19,7 @@ Hodiny jsou skvělé nejen pro vaše tělo, ale hlavně pro vaši mysl. Je to cv
 **Co tak zapomenout na běžné problémy všedního dne a přijít vytancovat všechny svoje starosti?
 Vysoká dávka endorfinů zaručená!**
 
-##### Oblečení
+##### **Oblečení**
 
 Vhodné je pohodlné oblečení (jako například na aerobik), které neomezuje Váš pohyb. Je důležité, abyste se cítili příjemně a uvolněně. Doporučuje se sportovní obuv – tenisky, ideální s odpruženou podrážkou, která tlumí nárazy a šetří tak Vaše klouby. Nejdůležitější součástí Vašeho „outfitu“ je úsměv na tváři :). Během tance se zapotíte, proto si s sebou vezměte i ručník a pití!
 
