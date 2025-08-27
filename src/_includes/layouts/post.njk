@@ -13,20 +13,20 @@
         <div class="container m-auto flex flex-col items-center ~gap-8/16">
             <picture>
                 <!-- MOBILE IMAGE -->
-                <source media="(max-width: 600px)" srcset="{% getUrl image | resize({ width: 736, height: 490 }) | avif %}" type="image/avif">
-                <source media="(max-width: 600px)" srcset="{% getUrl image | resize({ width: 736, height: 490 }) | webp %}" type="image/webp">
-                <source media="(max-width: 600px)" srcset="{% getUrl image | resize({ width: 736, height: 490 }) | jpeg %}" type="image/jpeg">
+                <source media="(max-width: 600px)" srcset="{% getUrl image | resize({ width: 736 }) | avif %}" type="image/avif">
+                <source media="(max-width: 600px)" srcset="{% getUrl image | resize({ width: 736 }) | webp %}" type="image/webp">
+                <source media="(max-width: 600px)" srcset="{% getUrl image | resize({ width: 736 }) | jpeg %}" type="image/jpeg">
                 <!-- TABLET IMAGE -->
-                <source media="(max-width: 1024px)" srcset="{% getUrl image | resize({ width: 1524, height: 1016 }) | avif %}" type="image/avif">
-                <source media="(max-width: 1024px)" srcset="{% getUrl image | resize({ width: 1524, height: 1016 }) | webp %}" type="image/webp">
-                <source media="(max-width: 1024px)" srcset="{% getUrl image | resize({ width: 1524, height: 1016 }) | jpeg %}" type="image/jpeg">
+                <source media="(max-width: 1024px)" srcset="{% getUrl image | resize({ width: 1524 }) | avif %}" type="image/avif">
+                <source media="(max-width: 1024px)" srcset="{% getUrl image | resize({ width: 1524 }) | webp %}" type="image/webp">
+                <source media="(max-width: 1024px)" srcset="{% getUrl image | resize({ width: 1524 }) | jpeg %}" type="image/jpeg">
                 <!-- DESKTOP IMAGE -->
-                <source media="(min-width: 1024px)" srcset="{% getUrl image | resize({ width: 1792, height: 1194 }) | avif %}" type="image/avif">
-                <source media="(min-width: 1024px)" srcset="{% getUrl image | resize({ width: 1792, height: 1194 }) | webp %}" type="image/webp">
-                <source media="(min-width: 1024px)" srcset="{% getUrl image | resize({ width: 1792, height: 1194 }) | jpeg %}" type="image/jpeg">
+                <source media="(min-width: 1024px)" srcset="{% getUrl image | resize({ width: 1792 }) | avif %}" type="image/avif">
+                <source media="(min-width: 1024px)" srcset="{% getUrl image | resize({ width: 1792 }) | webp %}" type="image/webp">
+                <source media="(min-width: 1024px)" srcset="{% getUrl image | resize({ width: 1792 }) | jpeg %}" type="image/jpeg">
                 <img
                     class="object-cover rounded-4xl"
-                    src="{% getUrl image | resize({ width: 1792, height: 1194 }) | jpeg %}"
+                    src="{% getUrl image | resize({ width: 1792 }) | jpeg %}"
                     alt="{{ imageAlt }}"
                     width="896"
                     height="597"
