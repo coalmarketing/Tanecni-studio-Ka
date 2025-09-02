@@ -31,4 +31,4 @@ Kurz společenského tance vám nepřinese jen taneční dovednosti, ale i rados
 **SPOLEČNÁ DISCOLEKCE** čtvrtek 20.11.2025, čas 18:00 - 21:00 hodin (v pátek 21.11.2025 lekce nebude)
 
 [Dress code - pánové](https://www.tanecnistudioka.cz/blog/dress-code-panove/)\
-Dress code - dámy
+[Dress code - dámy](https://www.tanecnistudioka.cz/blog/dress-code-damy/)
