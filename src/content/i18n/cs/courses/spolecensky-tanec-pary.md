@@ -35,7 +35,7 @@ contentOne:
     - paragraph: Kurz společenského tance vám nepřinese jen taneční dovednosti, ale i radost z pohybu, lepší kondici a sebevědomí při každé společenské příležitosti. Tanec se tak pro vás může stát nejen novým koníčkem, ale i krásným způsobem, jak trávit čas s partnerem či přáteli.
 
   cta: Rezervace
-  ctaUrl: https://rezervace.tanecnistudioka.cz/
+  ctaUrl: https://tanecni-studio-ka-z-s.reservio.com/
 
   imageUrl: /assets/images/courses/spolecensky_tanec_pary.jpg
   imageAlt: Instruktoři tanečního studia Ká u červené opony

@@ -33,7 +33,7 @@ contentOne:
     - paragraph: Tanec je přirozeným projevem ženskosti. U nás se můžete cítit svobodně, objevit nové rytmy a hlavně zažít radost z pohybu, která je dostupná úplně každé ženě.
 
   cta: Rezervace
-  ctaUrl: https://rezervace.tanecnistudioka.cz/
+  ctaUrl: https://tanecni-studio-ka-z-s.reservio.com/
 
   imageUrl: /assets/images/courses/oriental_dance.png
   imageAlt: Soutěž orientálního tance

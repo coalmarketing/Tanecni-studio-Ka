@@ -35,7 +35,7 @@ contentOne:
     - paragraph: Pokračovací kurz je skvělou volbou pro páry i jednotlivce, kteří chtějí získat větší jistotu, prohloubit své taneční schopnosti a užít si radost z pohybu ve společnosti podobně naladěných lidí.
 
   cta: Rezervace
-  ctaUrl: https://rezervace.tanecnistudioka.cz/
+  ctaUrl: https://tanecni-studio-ka-z-s.reservio.com/
 
   imageUrl: /assets/images/courses/spolecensky_tanec_pokracovaci.jpg
   imageAlt: Instruktoři tanečního studia Ká u červené opony

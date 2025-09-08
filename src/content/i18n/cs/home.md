@@ -19,7 +19,7 @@ hero:
 
   cta:
     - text: Rezervace
-      url: https://rezervace.tanecnistudioka.cz/
+      url: https://tanecni-studio-ka-z-s.reservio.com/
       target: _blank
 
     - text: Nabídka kurzů
