@@ -4,6 +4,9 @@ heading: Výuka společenského tance krok za krokem
 tags:
   - siteContent
 ---
+***Pokud se chcete ještě letos přihlásit, kontaktujte nás prosím telefonicky - 777 621 941.***\
+***Začínáme 18. a 19.09.2025.***
+
 **Základní kurz společenského tance a chování pro mládež** je ideální volbou pro mládeži ve věku od 15 do 21 let, kteří se chtějí naučit základy klasických i moderních tanců a získat jistotu na tanečním parketu. Kurz je určen úplným začátečníkům.
 
 Naučíte se správné držení těla, vedení a následování partnera i základní krokové variace. 
