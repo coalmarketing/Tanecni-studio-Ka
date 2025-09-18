@@ -28,6 +28,7 @@ Vhodné je pohodlné oblečení, které neomezuje Váš pohyb, je důležité, a
 
 **Termíny kurzů**
 
+* středa 17:00 - 18:00 hodin - začátečnice
 * středa 17:45 - 18:45 hodin
 
 hodina se bude konat v případě minimálního počtu přihlášených - 5 osob
