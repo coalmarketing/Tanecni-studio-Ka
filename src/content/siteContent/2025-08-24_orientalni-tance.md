@@ -44,3 +44,5 @@ hodina se bude konat v případě minimálního počtu přihlášených - 5 osob
 
   * 10 vstupů - 900,- Kč
   * 20 vstupů - 1.700,- Kč
+
+    \- možnost jedné lekce zdarma - po předchozí dohodě se můžete přijít nezávazně podívat a vyzkoušet si
