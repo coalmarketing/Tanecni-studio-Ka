@@ -35,6 +35,6 @@ Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneč
 
 **Cena na pololetí:** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
 
-\- možnost jedné lekce zdarma - můžete se přijít nezávazně podívat a vyzkoušet si 
-
+\- možnost jedné lekce zdarma - po předchozí dohodě se můžete přijít nezávazně podívat a vyzkoušet si 
+\
 **Oblečení:** sportovní, volné, pohodlné, taneční boty (doporučujeme společenskou obuv, ve které budete navštěvovat plesy apod.)
