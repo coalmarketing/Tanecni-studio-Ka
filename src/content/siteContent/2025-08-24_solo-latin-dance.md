@@ -12,7 +12,6 @@ Cvičení probíhá formou dynamických choreografií, které se v kratších č
 
 Přijďte si užít radost z pohybu, uvolnit hlavu a odnést si domů porci endorfinů, která vám zlepší náladu na celý den.
 
-
 Střídají se rychlé části s pomalými a přitom dochází ke spalování tuků, tvarování těla. Soustředí se na oblast nohy, paže, hýždě, trup, břicho a nejdůležitější sval Vašeho těla - srdce. Předávat radost z pohybu, ukázat, že se dá hubnout s úsměvem, bez stresu a že to zvládne každý.
 Hodiny jsou skvělé nejen pro vaše tělo, ale hlavně pro vaši mysl. Je to cvičení, které Vám zaručeně zvedne náladu!
 
@@ -29,7 +28,7 @@ Vhodné je pohodlné oblečení (jako například na aerobik), které neomezuje 
 
    18:00 - 19:00 hodin
 
-  - hodina se bude konat v případě minimálního počtu přihlášených - 5 osob
+  * hodina se bude konat v případě minimálního počtu přihlášených - 5 osob
 
 **Ceny**
 
@@ -42,3 +41,5 @@ Vhodné je pohodlné oblečení (jako například na aerobik), které neomezuje 
 
   * 10 vstupů - 900,- Kč
   * 20 vstupů - 1.700,- Kč
+
+\- možnost jedné lekce zdarma - po předchozí dohodě se můžete přijít nezávazně podívat a vyzkoušet si
