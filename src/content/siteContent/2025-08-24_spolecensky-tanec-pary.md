@@ -23,7 +23,6 @@ Díky individuálním hodinám získáte konkrétní rady od zkušeného lektora
 * disco: taneční novinky, taneční hry 
 * společenská výchova
 
-
 **Lekce trvá 2 hodiny a zahrnuje**: 
 
 * rozcvičku
@@ -39,14 +38,10 @@ Díky individuálním hodinám získáte konkrétní rady od zkušeného lektora
 
 * jednorázový vstup (2 h) - 500,- Kč
 
-
-
   **permanentky**
-
-   
 * 10 lekcí – 4.000,- Kč  
 * 20 lekcí – 6.000,- Kč
 
-\- možnost jedné lekce zdarma - můžete se přijít nezávazně podívat a vyzkoušet si 
+\- možnost jedné lekce zdarma - po předchozí dohodě se můžete přijít nezávazně podívat a vyzkoušet si 
 
 **Oblečení:** volné, pohodlné, taneční boty (doporučujeme společenskou obuv, ve které budete navštěvovat plesy apod.)
