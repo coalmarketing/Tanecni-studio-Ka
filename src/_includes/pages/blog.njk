@@ -16,7 +16,7 @@
                 <p class="~text-sm/base text-stone-800 dark:text-stone-200">{{ blog.noPosts }}</p>
             {% else %}
                 <ul class="grid grid-cols-1 lg:grid-cols-3 ~gap-4/6">
-                    {% for post in collections.post | limit(3) | reverse %}
+                    {% for post in collections.post | reverse %}
                         <li class="group/li">
                             <a href="{{ post.url }}" class="group/a relative flex flex-col justify-end items-start gap-2 h-[24rem] py-4 px-6 rounded-3xl overflow-hidden z-10
                             before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-gradient-to-t before:from-black before:to-black/0 before:-z-10">
