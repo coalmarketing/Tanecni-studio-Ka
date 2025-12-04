@@ -28,6 +28,12 @@ contentOne:
   imageAlt: Instruktoři tanečního studia Ká
 
   items:
+    - iconUrl: /assets/svgs/contact/123.svg
+      iconAlt: Ikona telefonu
+      
+      title: IČO
+      text: 05273951
+
     - iconUrl: /assets/svgs/contact/telephone-fill.svg
       iconAlt: Ikona telefonu
       
@@ -39,7 +45,7 @@ contentOne:
       iconAlt: Ikona obálky
       
       title: Email
-      text: motyckovakaterina@gmail.com
+      text: Kliknutím zašlete zprávu
       href: mailto:motyckovakaterina@gmail.com
 
   form:

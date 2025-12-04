@@ -1442,7 +1442,7 @@ select {
   --tw-border-opacity: 1;
   border-color: rgb(68 64 60 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
-  background-color: rgb(28 25 23 / var(--tw-bg-opacity, 1));
+  background-color: rgb(12 10 9 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
   color: rgb(231 229 228 / var(--tw-text-opacity, 1));
 }
@@ -1904,6 +1904,10 @@ select {
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
@@ -2465,6 +2469,11 @@ select {
 .\~gap-x-4\/6 {
   -moz-column-gap: clamp(1rem,0.64rem + 0.89vw,1.5rem)/* fluid from 1rem at 40rem to 1.5rem at 96rem */;
        column-gap: clamp(1rem,0.64rem + 0.89vw,1.5rem)/* fluid from 1rem at 40rem to 1.5rem at 96rem */;
+}
+
+.\~gap-x-4\/12 {
+  -moz-column-gap: clamp(1rem,-0.43rem + 3.57vw,3rem)/* fluid from 1rem at 40rem to 3rem at 96rem */;
+       column-gap: clamp(1rem,-0.43rem + 3.57vw,3rem)/* fluid from 1rem at 40rem to 3rem at 96rem */;
 }
 
 .\~gap-y-8\/16 {
@@ -3551,6 +3560,10 @@ html {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
+  .xl\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .xl\:items-start {
     align-items: flex-start;
   }
@@ -3632,6 +3645,12 @@ html {
 .dark\:text-white:where(.dark, .dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.dark\:before\:bg-white:where(.dark, .dark *)::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .dark\:odd\:bg-stone-900:nth-child(odd):where(.dark, .dark *) {
