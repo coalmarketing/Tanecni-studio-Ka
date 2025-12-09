@@ -1,6 +1,10 @@
 ---
 title: spolecensky-tanec-pary
 heading: Individuální kurz společenského tance v tanečním studiu
+cta:
+  text: Rezervace
+  url: https://tanecni-studio-ka-z-s.reservio.com/
+  target: _blank
 tags:
   - siteContent
 ---

@@ -1,6 +1,10 @@
 ---
 title: spolecensky-tanec-pokracovaci
 heading: Kurzy společenského tance pro pokročilé
+cta:
+  text: Rezervace
+  url: https://tanecni-studio-ka-z-s.reservio.com/
+  target: _blank
 tags:
   - siteContent
 ---

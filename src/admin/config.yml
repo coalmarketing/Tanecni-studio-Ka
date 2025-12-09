@@ -33,13 +33,43 @@ collections:
           hint: "Identifikace podstránky, díky které probíhá napojení na webu.",
         }
       - { label: "Nadpis", name: "heading", widget: "string" }
+      - { label: "Obsah", name: "body", widget: "markdown" }
+
+      - label: "Akční tlačítko"
+        name: "cta"
+        widget: "object"
+        collapsed: false
+        hint: "Odkaz zobrazený pod textem podstránky webu."
+        fields:
+          - {
+              label: "Zobrazený text",
+              name: "text",
+              widget: "string",
+              default: "Rezervace",
+            }
+          - {
+              label: "URL odkaz",
+              name: "url",
+              widget: "string",
+              default: "https://tanecni-studio-ka-z-s.reservio.com/",
+            }
+          - label: "Otevřít odkaz"
+            name: "target"
+            widget: "select"
+            default: ["_blank"]
+            options:
+              - { label: "Otevřít ve stejném okně", value: "_self" }
+              - {
+                  label: "Otevřít v novém okně / nové kartě (doporučeno pro externí odkazy)",
+                  value: "_blank",
+                }
+
       - {
           label: "Štítky",
           name: "tags",
           widget: "hidden",
           default: ["siteContent"],
         }
-      - { label: "Obsah", name: "body", widget: "markdown" }
 
   # BLOG CONFIG
   - label: "Blog"

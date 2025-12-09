@@ -1,6 +1,10 @@
 ---
 title: spolecensky-tanec-zakladni
 heading: Výuka společenského tance krok za krokem
+cta:
+  text: Rezervace
+  url: https://tanecni-studio-ka-z-s.reservio.com/
+  target: _blank
 tags:
   - siteContent
 ---

@@ -1,6 +1,10 @@
 ---
 title: solo-latin-dance
 heading: Přihlaste se na lekce solo latin dance
+cta:
+  text: Rezervace
+  url: https://tanecni-studio-ka-z-s.reservio.com/
+  target: _blank
 tags:
   - siteContent
 ---
