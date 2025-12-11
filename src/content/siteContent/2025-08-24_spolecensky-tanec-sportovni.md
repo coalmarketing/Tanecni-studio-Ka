@@ -37,7 +37,7 @@ Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneč
 
 **Termín kurzu:** pondělí 16:30 – 18:30 hodin 
 
-**ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 16:30 hodin  - PŘIJDTE SE PODÍVAT**
+**ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 16:30 hodin  - PŘIJĎTE SE PODÍVAT**
 
 **Cena na pololetí:** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
 
