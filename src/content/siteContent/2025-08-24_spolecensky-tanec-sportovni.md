@@ -1,6 +1,6 @@
 ---
 title: spolecensky-tanec-sportovni
-heading: Sportovní kurz tance pro mladé tanečníky
+heading: Sportovní klub tance pro děti a mládež
 cta:
   text: Rezervace
   url: https://tanecni-studio-ka-z-s.reservio.com/
@@ -8,7 +8,7 @@ cta:
 tags:
   - siteContent
 ---
-Sportovní kurz společenského tance pro mládež je určen všem mladým tanečníkům, kteří chtějí rozvíjet své taneční dovednosti na vyšší úrovni a připravit se na soutěže nebo plesovou sezónu. Kurz kombinuje výuku standardních i latinskoamerických tanců s důrazem na techniku, preciznost a pohybovou eleganci.
+Sportovní klub společenského tance pro mládež je určen všem mladým tanečníkům, kteří chtějí rozvíjet své taneční dovednosti na vyšší úrovni a připravit se na soutěže nebo plesovou sezónu. Kurz kombinuje výuku standardních i latinskoamerických tanců s důrazem na techniku, preciznost a pohybovou eleganci.
 
 V rámci kurzu se mladí tanečníci učí pokročilé taneční figury, kombinace a choreografie, které rozvíjejí jejich koordinaci, rytmus a spolupráci s partnerem. Instruktoři se zaměřují na vedení a následování, správné držení těla a taneční výraz, aby každý účastník získal jistotu a sebevědomí na parketu.
 
@@ -36,6 +36,8 @@ Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneč
 **Místo konání:** Taneční studio „Ká“, přízemí ZŠ Komenského 269, Letohrad
 
 **Termín kurzu:** pondělí 16:30 – 18:30 hodin 
+
+**ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 16:30 hodin  - PŘIJDTE SE PODÍVAT**
 
 **Cena na pololetí:** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
 
