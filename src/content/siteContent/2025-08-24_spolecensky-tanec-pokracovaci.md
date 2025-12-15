@@ -20,7 +20,7 @@ Pokračovací kurz je skvělou volbou pro páry i jednotlivce, kteří chtějí 
 
 **Místo konání**: Orlovna č. p. 181, Letohrad – Orlice
 
-**Termín kurzu**: neděle 18:30 - 21:00 hodin, od 01/2026
+**Termín kurzu**: neděle 18:30 - 21:00 hodin, 11.01., 18.01., 25.01., 01.02., 15.02., 22.02., 08.03. a 15.03.2026
 
 **Oblečení**
 
