@@ -1,6 +1,6 @@
 ---
 title: spolecensky-tanec-pary
-heading: Individuální kurz společenského tance v tanečním studiu
+heading: Individuální lekce společenského tance v tanečním studiu
 cta:
   text: Rezervace
   url: https://tanecni-studio-ka.reenio.cz/cs/terms
