@@ -39,7 +39,7 @@ Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneč
 
 **ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 16:30 hodin  - PŘIJĎTE SE PODÍVAT**
 
-**Cena na pololetí:** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
+**Cena na školní pololetí (září-leden a únor-červen):** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
 
 \- možnost jedné lekce zdarma - po předchozí dohodě se můžete přijít nezávazně podívat a vyzkoušet si 
 \
