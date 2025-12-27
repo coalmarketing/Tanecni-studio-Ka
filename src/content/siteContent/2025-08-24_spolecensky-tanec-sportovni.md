@@ -3,7 +3,7 @@ title: spolecensky-tanec-sportovni
 heading: Sportovní klub tance pro děti a mládež
 cta:
   text: Rezervace
-  url: https://tanecni-studio-ka-z-s.reservio.com/
+  url: https://tanecni-studio-ka.reenio.cz/cs/terms
   target: _blank
 tags:
   - siteContent
