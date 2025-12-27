@@ -3,7 +3,7 @@ title: pole-dance
 heading: Kurzy pole dance pro začátečníky i pokročilé
 cta:
   text: Rezervace
-  url: https://tanecni-studio-ka-z-s.reservio.com/
+  url: https://tanecni-studio-ka.reenio.cz/cs/terms
   target: _blank
 tags:
   - siteContent
