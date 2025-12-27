@@ -26,4 +26,5 @@ Pokračovací kurz je skvělou volbou pro páry i jednotlivce, kteří chtějí 
 
 Vhodné je pohodlné společenské oblečení, které neomezuje Váš pohyb, je důležité, abyste se cítili příjemně a uvolněně. V těchto tanečních kurzech nepožadujeme oblek, stačí společenské kalhoty a košile s motýlkem nebo kravatou. Pro ženy pohodlné šaty nebo sukně a halenka. Doporučujeme společenskou obuv, ve které budete navštěvovat plesy apod.
 
-**Do tohoto kurzu přijímáme pouze přihlášky celého páru - do své přihlášky musíte doplnit do poznámky svého tanečního partnera (partnerku).**
+
+**Do tohoto kurzu přijímáme pouze přihlášky celého páru. Stačí podat jednu společnou přihlášku za pár, do poznámky uveďte jméno tanečního partnera (partnerky).**
