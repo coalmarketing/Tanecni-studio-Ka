@@ -3,11 +3,7 @@ title: spolecensky-tanec-pokracovaci
 heading: Kurzy společenského tance pro pokročilé
 cta:
   text: Rezervace
-<<<<<<< HEAD
   url: https://tanecni-studio-ka.reenio.cz/cs/terms/
-=======
-  url: https://tanecni-studio-ka.reenio.cz/cs/
->>>>>>> 5e51e749c19433cf0bd0bf2bd72cf40d5cb13aba
   target: _blank
 tags:
   - siteContent
