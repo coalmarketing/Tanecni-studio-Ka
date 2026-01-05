@@ -3,7 +3,11 @@ title: spolecensky-tanec-pokracovaci
 heading: Kurzy společenského tance pro pokročilé
 cta:
   text: Rezervace
+<<<<<<< HEAD
   url: https://tanecni-studio-ka.reenio.cz/cs/terms/
+=======
+  url: https://tanecni-studio-ka.reenio.cz/cs/
+>>>>>>> 5e51e749c19433cf0bd0bf2bd72cf40d5cb13aba
   target: _blank
 tags:
   - siteContent
@@ -20,10 +24,11 @@ Pokračovací kurz je skvělou volbou pro páry i jednotlivce, kteří chtějí 
 
 **Místo konání**: Orlovna č. p. 181, Letohrad – Orlice
 
-**Termín kurzu**: neděle 18:30 - 21:00 hodin, od 01/2026
+**Termín kurzu**: neděle 18:30 - 21:00 hodin, 11.01., 18.01., 25.01., 01.02., 15.02., 22.02., 08.03. a 15.03.2026
 
 **Oblečení**
 
 Vhodné je pohodlné společenské oblečení, které neomezuje Váš pohyb, je důležité, abyste se cítili příjemně a uvolněně. V těchto tanečních kurzech nepožadujeme oblek, stačí společenské kalhoty a košile s motýlkem nebo kravatou. Pro ženy pohodlné šaty nebo sukně a halenka. Doporučujeme společenskou obuv, ve které budete navštěvovat plesy apod.
 
-**Do tohoto kurzu přijímáme pouze přihlášky celého páru - do své přihlášky musíte doplnit do poznámky svého tanečního partnera (partnerku).**
+
+**Do tohoto kurzu přijímáme pouze přihlášky celého páru. Stačí podat jednu společnou přihlášku za pár, do poznámky uveďte jméno tanečního partnera (partnerky).**
