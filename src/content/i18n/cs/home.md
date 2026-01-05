@@ -19,7 +19,7 @@ hero:
 
   cta:
     - text: Rezervace
-      url: https://tanecni-studio-ka-z-s.reservio.com/
+      url: https://tanecni-studio-ka.reenio.cz/cs/terms/
       target: _blank
 
     - text: Nabídka kurzů

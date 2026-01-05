@@ -51,7 +51,7 @@ collections:
               label: "URL odkaz",
               name: "url",
               widget: "string",
-              default: "https://tanecni-studio-ka-z-s.reservio.com/",
+              default: "https://tanecni-studio-ka.reenio.cz/cs/terms/",
             }
           - label: "Otevřít odkaz"
             name: "target"

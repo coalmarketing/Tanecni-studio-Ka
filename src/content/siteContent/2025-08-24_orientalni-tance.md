@@ -3,7 +3,7 @@ title: orientalni-tance
 heading: Jak začít s orientálním tancem v každém věku
 cta:
   text: Rezervace
-  url: https://tanecni-studio-ka-z-s.reservio.com/
+  url: https://tanecni-studio-ka.reenio.cz/cs/terms/
   target: _blank
 tags:
   - siteContent

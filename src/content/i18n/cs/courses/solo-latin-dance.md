@@ -31,7 +31,7 @@ contentOne:
     - paragraph: Přijďte si užít radost z pohybu, uvolnit hlavu a odnést si domů porci endorfinů, která vám zlepší náladu na celý den.
 
   cta: Rezervace
-  ctaUrl: https://tanecni-studio-ka-z-s.reservio.com/
+  ctaUrl: https://tanecni-studio-ka.reenio.cz/cs/terms/
 
   imageUrl: /assets/images/courses/solo_latino_dance.png
   imageAlt: Lekce solo latin dance

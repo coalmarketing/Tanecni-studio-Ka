@@ -31,7 +31,7 @@ contentOne:
     - paragraph: Díky pravidelnému tréninku pole dance posílíte svaly, vytvarujete postavu, zlepšíte držení těla a zároveň si užijete radost z pohybu. Každá lekce je zároveň výzvou i příležitostí překonat sama sebe – a odnést si nejen energii, ale i pořádnou dávku sebevědomí.
 
   cta: Rezervace
-  ctaUrl: https://tanecni-studio-ka-z-s.reservio.com/
+  ctaUrl: https://tanecni-studio-ka.reenio.cz/cs/terms/
 
   imageUrl: /assets/images/courses/pole_dance.png
   imageAlt: Lekce solo latin dance

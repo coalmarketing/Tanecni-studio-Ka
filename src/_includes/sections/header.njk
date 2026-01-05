@@ -2,11 +2,11 @@
   class="py-2 ~px-4/8 fixed flex w-full z-50 before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-background/80 before:border-b-2 before:border-secondary
   before:shadow-md before:-z-10 before:transition-transform before:duration-300 before:scale-y-0 before:origin-top group-[.scroll]/body:before:scale-y-100 group-[.mobile-menu]/body:before:scale-y-100 group-[.mobile-menu]/body:before:border-none"
 >
-  <div class="container m-auto flex justify-between items-center">
-    <!-- LOGO -->
-    <div class="lg:basis-1/3 relative flex">
-      <a href="/" aria-label="Zpět na domovskou stránku">
-        <img
+    <div class="container m-auto flex justify-between items-center">
+        <!-- LOGO -->
+        <div class="lg:basis-1/3 relative flex">
+            <a href="/" aria-label="Zpět na domovskou stránku">
+                <img
           class="~h-14/16 w-auto transition-opacity duration-300 group-[.scroll]/body:opacity-0"
           src="/assets/svgs/TS_Ka-logo-white.svg"
           alt="Logo - Taneční studio Ká"
@@ -16,15 +16,15 @@
           decoding="async"
           aria-hidden="true"
           draggable="false">
-      </a>
+            </a>
 
-      <!-- SCROLL LOGO -->
-      <a
+            <!-- SCROLL LOGO -->
+            <a
         href="/"
         aria-label="Zpět na domovskou stránku"
         class="absolute ~p-2/3 bg-background border-2 border-primary shadow-md rounded-full transition-opacity duration-300 opacity-0 group-[.scroll]/body:opacity-100"
       >
-        <img
+                <img
           class="~h-20/28 w-auto"
           src="/assets/svgs/TS_Ka-logo_vertical_white.svg"
           alt="Logo - Taneční studio Ká"
@@ -34,223 +34,223 @@
           decoding="async"
           aria-hidden="true"
           draggable="false">
-      </a>
-    </div>
+            </a>
+        </div>
 
-    <!-- NAVIGATION -->
-    <nav class="lg:basis-1/3 flex justify-center w-full max-lg:absolute max-lg:top-full max-lg:py-6 max-lg:left-0 max-lg:bg-background max-lg:border-b-2 max-lg:border-secondary max-lg:-z-10
+        <!-- NAVIGATION -->
+        <nav class="lg:basis-1/3 flex justify-center w-full max-lg:absolute max-lg:top-full max-lg:py-6 max-lg:left-0 max-lg:bg-background max-lg:border-b-2 max-lg:border-secondary max-lg:-z-10
     max-lg:transition-transform max-lg:duration-300 max-lg:origin-top max-lg:scale-y-0 group-[.mobile-menu]/body:max-lg:scale-y-100">
-      <ul class="flex max-lg:flex-col lg:~gap-4/8 w-full">
-        {% set navPages = collections.all | eleventyNavigation %}
+            <ul class="flex max-lg:flex-col lg:~gap-4/8 w-full">
+                {% set navPages = collections.all | eleventyNavigation %}
 
-        {# Loop through all pages with a eleventyNavigation in the frontmatter #}
-        {% for entry in navPages %}
+                {# Loop through all pages with a eleventyNavigation in the frontmatter #}
+                {% for entry in navPages %}
 
-          {# Define a hasChild variable to make it easier to test what navigation items are have child dropdown pages #}
-          {% set hasChild = entry.children.length %}
+                    {# Define a hasChild variable to make it easier to test what navigation items are have child dropdown pages #}
+                    {% set hasChild = entry.children.length %}
 
-          <li
+                    <li
             class="group/li relative flex max-lg:flex-col max-lg:items-center {% if hasChild -%} dropdown {%- endif %}"
             {%- if hasChild -%}tabindex="0"{%- endif -%}
           >
 
-            {# If the page has child dropdown pages, render it as a <button> tag with the appropriate dropdown HTML #}
-            {% if hasChild %}
-              {# Render the <button> with the active class, dropdown icon and child links #}
-              <button
+                        {# If the page has child dropdown pages, render it as a <button> tag with the appropriate dropdown HTML #}
+                        {% if hasChild %}
+                            {# Render the <button> with the active class, dropdown icon and child links #}
+                            <button
                   class="dropdown-button flex items-center gap-1.5 ~p-1.5/4 whitespace-nowrap transition-colors duration-300 text-stone-200 hover:text-white"
                   aria-expanded="false"
                   aria-controls="dropdown-{{ entry.key | slug }}"
                   aria-label="dropdown-{{ entry.key | slug }}"
                   type="button"
                 >
-                <span>{{ entry.key }}</span>
+                                <span>{{ entry.key }}</span>
 
-                <!-- ICON -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="mt-0.5" viewBox="0 0 16 16">
-                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </button>
+                                <!-- ICON -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="mt-0.5" viewBox="0 0 16 16">
+                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                </svg>
+                            </button>
 
-              {# Dropdowns have another ul/li set up within the parent li, which gets rendered in the same way as a normal link #}
-              <div class="max-lg:w-full max-lg:bg-stone-900 max-lg:h-0 max-xl:opacity-0 max-lg:group-[.active]/li:h-full max-lg:group-[.active]/li:opacity-100
+                            {# Dropdowns have another ul/li set up within the parent li, which gets rendered in the same way as a normal link #}
+                            <div class="max-lg:w-full max-lg:bg-stone-900 max-lg:h-0 max-xl:opacity-0 max-lg:group-[.active]/li:h-full max-lg:group-[.active]/li:opacity-100
               lg:absolute lg:top-[calc(100%-0.25rem)] lg:left-0 lg:p-4 lg:transition-transform lg:duration-300 lg:scale-y-0 lg:origin-top lg:group-hover/li:scale-y-100">
-                <ul id="dropdown-{{ entry.key | slug }}" class="flex flex-col max-lg:items-center lg:bg-background/80 lg:border-b-2 lg:border-secondary">
-                  {% for child in entry.children %}
-                    {# Define a hasChild variable to make it easier to test what navigation items are have child dropdown pages #}
-                    {% set hasSubchild = child.children.length %}
+                                <ul id="dropdown-{{ entry.key | slug }}" class="flex flex-col max-lg:items-center lg:bg-background/80 lg:border-b-2 lg:border-secondary">
+                                    {% for child in entry.children %}
+                                        {# Define a hasChild variable to make it easier to test what navigation items are have child dropdown pages #}
+                                        {% set hasSubchild = child.children.length %}
 
-                    <li class="drop-li group/subli flex flex-col items-center w-full {% if hasChild -%} dropdown {%- endif %}">
-                      {% if hasSubchild %}
-                        {# Render the <button> with the active class, dropdown icon and child links #}
-                        <button
+                                        <li class="drop-li group/subli flex flex-col items-center w-full {% if hasChild -%} dropdown {%- endif %}">
+                                            {% if hasSubchild %}
+                                                {# Render the <button> with the active class, dropdown icon and child links #}
+                                                <button
                           class="dropdown-button flex justify-center items-center gap-1.5 w-full ~p-1.5/4 lg:py-3 lg:px-4 whitespace-nowrap transition-colors duration-300 ~text-sm/base text-stone-200 hover:text-white lg:hover:bg-background lg:peer-hover:bg-background lg:group-hover/subli:bg-background"
                           aria-expanded="false"
                           aria-controls="dropdown-{{ child.key | slug }}"
                           aria-label="dropdown-{{ child.key | slug }}"
                           type="button"
                         >
-                          <span>{{ child.key }}</span>
+                                                    <span>{{ child.key }}</span>
 
-                          <!-- ICON -->
-                          <svg class="~mt-0.5/1 transition-transform duration-300 group-hover/subli:-rotate-90" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                          </svg>
-                        </button>
+                                                    <!-- ICON -->
+                                                    <svg class="~mt-0.5/1 transition-transform duration-300 group-hover/subli:-rotate-90" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                                    </svg>
+                                                </button>
 
-                        <div class="max-lg:w-full max-lg:bg-stone-900 max-lg:h-0 max-lg:opacity-0 max-lg:group-[.active]/subli:h-full max-lg:group-[.active]/subli:opacity-100
+                                                <div class="max-lg:w-full max-lg:bg-stone-900 max-lg:h-0 max-lg:opacity-0 max-lg:group-[.active]/subli:h-full max-lg:group-[.active]/subli:opacity-100
                         lg:absolute lg:top-4 lg:left-[calc(100%-1rem)] lg:transition-transform lg:duration-300 lg:scale-x-0 lg:origin-left lg:group-hover/subli:scale-x-100">
-                          <ul id="dropdown-{{ child.key | slug }}" class="dropdown-button flex flex-col bg-stone-950 max-lg:pb-0 max-lg:group-[.active]/subli:pb-1 lg:bg-background lg:border-b-2 lg:border-secondary">
-                            {% for subchild in child.children %}
-                              <li class="inline-block">
-                                <a
+                                                    <ul id="dropdown-{{ child.key | slug }}" class="dropdown-button flex flex-col bg-stone-950 max-lg:pb-0 max-lg:group-[.active]/subli:pb-1 lg:bg-background lg:border-b-2 lg:border-secondary">
+                                                        {% for subchild in child.children %}
+                                                            <li class="inline-block">
+                                                                <a
                                   href="{{ subchild.url }}"
                                   class="li-link inline-flex max-lg:justify-center whitespace-nowrap w-full ~p-1.5/4 lg:py-3 lg:px-4 ~text-sm/base transition-[background-color] duration-300
                                   {%- if child.url == page.url %} text-white lg:hover:bg-background
                                   {%- else %} text-stone-200 hover:text-white lg:hover:bg-background{% endif %}"
                                   {%- if child.url == page.url -%}aria-current="page"{%- endif -%}>
-                                  {{ subchild.key }}
-                                </a>
-                              </li>
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% else %}
-                        <a
+                                                                    {{ subchild.key }}
+                                                                </a>
+                                                            </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </div>
+                                            {% else %}
+                                                <a
                           href="{{ child.url }}"
                           class="li-link inline-flex max-lg:justify-center whitespace-nowrap w-full ~p-1.5/4 lg:py-3 lg:px-4 ~text-sm/base transition-[background-color] duration-300
                           {%- if child.url == page.url %} text-white lg:hover:bg-background
                           {%- else %} text-stone-200 hover:text-white lg:hover:bg-background{% endif %}"
                           {%- if child.url == page.url -%}aria-current="page"{%- endif -%}
                         >
-                          {{ child.key }}
-                        </a>
-                      {% endif %}
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            {% else %}
-              {# Normal pages are rendered as <a> tags, in the normal way you'd expect #}
-              <a
+                                                    {{ child.key }}
+                                                </a>
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% else %}
+                            {# Normal pages are rendered as <a> tags, in the normal way you'd expect #}
+                            <a
                 class="~p-1.5/4 whitespace-nowrap transition-colors duration-300
                 {%- if entry.url == page.url %} text-white font-semibold
                 {%- else %} text-stone-200 hover:text-white{% endif %}"
                 href="{{ entry.url }}"
                 {%- if entry.url == page.url -%}aria-current="page"{%- endif -%}>
-                {{ entry.key }}
-              </a>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
+                                {{ entry.key }}
+                            </a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
 
-    <!-- DARKMODE + CTA -->
-    <div class="lg:basis-1/3 flex justify-end items-center ~gap-4/6">
-      <!-- DARKMODE BUTTON -->
-      <label for="dark-mode-toggle" class="darkmode-container">
-        <span class="sr-only">Přepínač tmavého režimu</span>
-        <input id="dark-mode-toggle" type="checkbox">
-        <span class="planet"></span>
-        <span class="elements">
-          <svg
+        <!-- DARKMODE + CTA -->
+        <div class="lg:basis-1/3 flex justify-end items-center ~gap-4/6">
+            <!-- DARKMODE BUTTON -->
+            <label for="dark-mode-toggle" class="darkmode-container">
+                <span class="sr-only">Přepínač tmavého režimu</span>
+                <input id="dark-mode-toggle" type="checkbox">
+                <span class="planet"></span>
+                <span class="elements">
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
               version="1.1"
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <polygon points="250,60 100,400 400,400"/>
-          </svg>
-          <svg
+                        <polygon points="250,60 100,400 400,400"/>
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <circle
+                        <circle
             cx="250"
             cy="250"
             r="200"/>
-          </svg>
-          <svg
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <circle
+                        <circle
             cx="250"
             cy="250"
             r="200"/>
-          </svg>
-          <svg
+                    </svg>
+                    <svg
           version="1.1"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
-            <circle
+                        <circle
             cx="250"
             cy="250"
             r="200"/>
-          </svg>
-        </span>
-      </label>
+                    </svg>
+                </span>
+            </label>
 
-      <!-- CTA -->
-      <a href="https://tanecni-studio-ka-z-s.reservio.com/" target="_blank" class="btn max-lg:hidden">
+            <!-- CTA -->
+            <a href="https://tanecni-studio-ka.reenio.cz/cs/terms/" target="_blank" class="btn max-lg:hidden">
         Rezervace
       </a>
 
-      <!-- MOBILE MENU BUTTON -->
-      <button
+            <!-- MOBILE MENU BUTTON -->
+            <button
         id="mobile-menu-toggle"
         class="group lg:hidden flex justify-center items-center gap-1 h-11 w-11 bg-secondary rounded-xl transition-transform duration-300 [&.active]:rotate-90"
         type="button"
         aria-expanded="false"
       >
-        <span class="sr-only">Otevřít navigaci</span>
-        <span class="relative block h-3.5 w-5">
-          <span class="absolute top-0 block h-0.5 w-full bg-white rounded-full transition-transform duration-300 group-[.active]:rotate-45 group-[.active]:top-1/2 group-[.active]:-translate-y-1/2 group-[.active]:left-1/2 group-[.active]:-translate-x-1/2"></span>
-          <span class="absolute top-1/2 -translate-y-1/2 block h-0.5 w-full bg-white rounded-full transition-[opacity] duration-300 group-[.active]:opacity-0"></span>
-          <span class="absolute bottom-0 block h-0.5 w-full bg-white rounded-full transition-transform duration-300 group-[.active]:rotate-[315deg] group-[.active]:top-1/2 group-[.active]:-translate-y-1/2 group-[.active]:left-1/2 group-[.active]:-translate-x-1/2"></span>
-        </span>
-      </button>
+                <span class="sr-only">Otevřít navigaci</span>
+                <span class="relative block h-3.5 w-5">
+                    <span class="absolute top-0 block h-0.5 w-full bg-white rounded-full transition-transform duration-300 group-[.active]:rotate-45 group-[.active]:top-1/2 group-[.active]:-translate-y-1/2 group-[.active]:left-1/2 group-[.active]:-translate-x-1/2"></span>
+                    <span class="absolute top-1/2 -translate-y-1/2 block h-0.5 w-full bg-white rounded-full transition-[opacity] duration-300 group-[.active]:opacity-0"></span>
+                    <span class="absolute bottom-0 block h-0.5 w-full bg-white rounded-full transition-transform duration-300 group-[.active]:rotate-[315deg] group-[.active]:top-1/2 group-[.active]:-translate-y-1/2 group-[.active]:left-1/2 group-[.active]:-translate-x-1/2"></span>
+                </span>
+            </button>
+        </div>
     </div>
-  </div>
 </header>
