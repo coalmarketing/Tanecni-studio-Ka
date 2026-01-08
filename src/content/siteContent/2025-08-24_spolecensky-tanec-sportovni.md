@@ -8,6 +8,10 @@ cta:
 tags:
   - siteContent
 ---
+
+ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 16:30 hodin  - PŘIJĎTE SE PODÍVAT!!\
+Tančíme i jednotlivě – páry vytvoříme na místě :-)
+
 Sportovní klub společenského tance pro mládež je určen všem mladým tanečníkům, kteří chtějí rozvíjet své taneční dovednosti na vyšší úrovni a připravit se na soutěže nebo plesovou sezónu. Kurz kombinuje výuku standardních i latinskoamerických tanců s důrazem na techniku, preciznost a pohybovou eleganci.
 
 V rámci kurzu se mladí tanečníci učí pokročilé taneční figury, kombinace a choreografie, které rozvíjejí jejich koordinaci, rytmus a spolupráci s partnerem. Instruktoři se zaměřují na vedení a následování, správné držení těla a taneční výraz, aby každý účastník získal jistotu a sebevědomí na parketu.
