@@ -8,8 +8,7 @@ cta:
 tags:
   - siteContent
 ---
-
-ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 16:30 hodin  - PŘIJĎTE SE PODÍVAT!!\
+ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 17:30 hodin  - PŘIJĎTE SE PODÍVAT!!\
 Tančíme i jednotlivě – páry vytvoříme na místě :-)
 
 Sportovní klub společenského tance pro mládež je určen všem mladým tanečníkům, kteří chtějí rozvíjet své taneční dovednosti na vyšší úrovni a připravit se na soutěže nebo plesovou sezónu. Kurz kombinuje výuku standardních i latinskoamerických tanců s důrazem na techniku, preciznost a pohybovou eleganci.
@@ -41,9 +40,9 @@ Díky pravidelné výuce sportovního tance si účastníci osvojí nejen taneč
 
 **Termín kurzu:** pondělí 16:30 – 18:30 hodin 
 
-**ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 16:30 hodin  - PŘIJĎTE SE PODÍVAT**
+**ZAČÁTEČNÍCI NOVĚ od 15. ledna 2026: čtvrtek 15:30 - 17:30 hodin  - PŘIJĎTE SE PODÍVAT**
 
-**Cena na školní pololetí (září-leden a únor-červen):** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí, hlásíte se jako dívka nebo chlapec) 
+**Cena na školní pololetí (září-leden a únor-červen):** 2.200,- (v rezervačním systému si zakoupíte časovou permanentku na pololetí) 
 
 \- možnost jedné lekce zdarma - po předchozí dohodě se můžete přijít nezávazně podívat a vyzkoušet si 
 \
